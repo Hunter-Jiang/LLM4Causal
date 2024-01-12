@@ -1,0 +1,283 @@
+,Unnamed: 0.1,Unnamed: 0,dataset,var,var_name,prompt,input,output
+0,0,0,housing_market.csv,"median home price,vacancy rates",,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: housing_market.csv
+- Interested variable: median home price, vacancy rates
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- Can we pinpoint the number of instances in the employee_data.csv dataset where one variable directly leads to another?
+- Within the employee_data.csv dataset, how many instances of one factor directly causing another can be observed?
+- How many causal connections can be identified in the employee_data.csv dataset?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- From the job_data.csv dataset, can we infer if education (edu) has a significant impact on job satisfaction (job_satisfaction)?
+- Within the job_data.csv dataset, is there evidence of causal connections between education (edu) and job satisfaction (job_satisfaction)?
+- Is it evident in the job_data.csv dataset whether education (edu) plays a role in affecting job satisfaction (job_satisfaction)?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- Within the dataset weather_data.csv, what is the nature of the causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- Within the weather_data.csv dataset, can you outline the causal connections among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- In the weather_data.csv dataset, what causal connections can be identified among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. In the housing_market.csv dataset, is there a clear indication that vacancy rates have an influence on the median home price?
+
+2. Can we determine from the data in housing_market.csv whether changes in median home price are a result of shifts in vacancy rates?
+
+3. Does the housing_market.csv dataset show any instances where the median home price is affected by the level of vacancy rates?
+
+4. Looking at the information in housing_market.csv, is there any sign that the vacancy rates play a role in determining the median home price?
+
+5. Is there any evidence within the housing_market.csv dataset to suggest that the median home price could be driven by the vacancy rates?","{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}"
+1,1,1,political_engagement.csv,"legislation passed,voter turnout,political rallies attendance",,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: political_engagement.csv
+- Interested variable: legislation passed, voter turnout, political rallies attendance
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- In the dataset employee_data.csv, how many causal relationships can be detected?
+- How many causal connections can be identified in the employee_data.csv dataset?
+- Within the employee_data.csv dataset, how many instances of one factor directly causing another can be observed?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- Within the job_data.csv dataset, is there evidence of causal connections between education (edu) and job satisfaction (job_satisfaction)?
+- Is it evident in the job_data.csv dataset whether education (edu) plays a role in affecting job satisfaction (job_satisfaction)?
+- Can we find any concrete connections between education (edu) and job satisfaction (job_satisfaction) in the job_data.csv dataset?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- What are causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in dataset weather_data.csv?
+- In the weather_data.csv dataset, what causal connections can be identified among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- Within the weather_data.csv dataset, can you outline the causal connections among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. Does the political_engagement.csv dataset offer insights into whether the number of legislation passed directly impacts voter turnout and attendance at political rallies?
+
+2. In examining the political_engagement.csv dataset, is there any indication that increased political rallies attendance leads to a change in the rate of legislation passed or voter turnout?
+
+3. Can we observe from the data in political_engagement.csv a direct effect of voter turnout on the number of legislation passed and the frequency of political rallies attendance?
+
+4. Is there evidence within the political_engagement.csv that suggests attendance at political rallies has a direct influence on the rate of legislation passed or the level of voter turnout?
+
+5. From the information in political_engagement.csv, what instances show that the quantity of legislation passed has a direct effect on both voter turnout and political rallies attendance?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}"
+2,2,2,public_health.csv,all_variables,,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: public_health.csv
+- Interested variable: all variables
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- How many causal connections can be identified in the employee_data.csv dataset?
+- Is there a method to discover every direct influence present in the employee_data.csv dataset?
+- Within the employee_data.csv dataset, how many instances of one factor directly causing another can be observed?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- Within the job_data.csv dataset, is there causal links between education (edu) and job satisfaction (job_satisfaction)?
+- Is it evident in the job_data.csv dataset whether education (edu) plays a role in affecting job satisfaction (job_satisfaction)?
+- Can we find any concrete connections between education (edu) and job satisfaction (job_satisfaction) in the job_data.csv dataset?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- Within the weather_data.csv dataset, can you outline the causal connections among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- Within the dataset weather_data.csv, what is the nature of the causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- Could you describe the causal relationships among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in the weather_data.csv dataset?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. In the public_health.csv dataset, can we determine if specific variables serve as a cause for changes observed in others?
+
+2. Are there identifiable instances in the public_health.csv dataset where a particular variable has a direct effect on another?
+
+3. Does the public_health.csv dataset offer insights into which variables may be responsible for causing shifts in other variables?
+
+4. Could we pinpoint any cases within the public_health.csv dataset where the alteration in one variable is a direct consequence of another?
+
+5. How many examples of one variable directly leading to a change in another can be traced in the public_health.csv dataset?","{'causal_problem': ['CSL', None], 'dataset': ['public_health.csv'], 'nodes': ['all_variables']}"
+3,3,3,retail_sales.csv,all_variables,,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: retail_sales.csv
+- Interested variable: all variables
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- Can you determine all causal connections present in the employee_data.csv dataset?
+- Is there a method to discover every direct influence present in the employee_data.csv dataset?
+- In the dataset employee_data.csv, how many causal relationships can be detected?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- Within the job_data.csv dataset, is there evidence of causal connections between education (edu) and job satisfaction (job_satisfaction)?
+- Do the records in job_data.csv show if education (edu) directly impacts job satisfaction (job_satisfaction)?
+- Is it evident in the job_data.csv dataset whether education (edu) plays a role in affecting job satisfaction (job_satisfaction)?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- Within the dataset weather_data.csv, what is the nature of the causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- In the weather_data.csv dataset, what causal connections can be identified among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- What are causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in dataset weather_data.csv?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. In the retail_sales.csv dataset, are there elements that directly cause changes in some of the other variables, and if so, can you list those relationships?
+
+2. Does the data in retail_sales.csv reveal if certain variables serve as the root cause for fluctuations in other areas within the same dataset?
+
+3. Can we identify any specific factors within retail_sales.csv that have a direct effect on the rest of the data points?
+
+4. What are the various causal relationships that exist among the variables detailed in the retail_sales.csv dataset?
+
+5. Are there discernible cause-and-effect patterns that impact the variables represented in the retail_sales.csv, and can you quantify these influences?","{'causal_problem': ['CSL', None], 'dataset': ['retail_sales.csv'], 'nodes': ['all_variables']}"
+4,4,4,consumer_electronics.csv,"sales volume,user satisfaction,market share","monthly_sales,user_satisfaction,sector_market_share","Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: consumer_electronics.csv
+- Interested variable: sales volume (monthly_sales), user satisfaction (user_satisfaction), market share (sector_market_share)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- Can you determine all causal connections present in the employee_data.csv dataset?
+- Within the employee_data.csv dataset, how many instances of one factor directly causing another can be observed?
+- Is there a method to discover every direct influence present in the employee_data.csv dataset?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- Within the job_data.csv dataset, is there causal links between education (edu) and job satisfaction (job_satisfaction)?
+- Are there discernible causal links between education (edu) and job satisfaction (job_satisfaction) in the job_data.csv dataset?
+- Is it evident in the job_data.csv dataset whether education (edu) plays a role in affecting job satisfaction (job_satisfaction)?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- Within the dataset weather_data.csv, what is the nature of the causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- What are causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in dataset weather_data.csv?
+- Within the weather_data.csv dataset, can you outline the causal connections among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. In the consumer_electronics.csv dataset, does user satisfaction (user_satisfaction) influence the volume of monthly sales (monthly_sales) of electronic goods?
+
+2. Is there any evidence within the consumer_electronics.csv dataset to suggest that a company's market share (sector_market_share) has a direct effect on the satisfaction levels (user_satisfaction) of its consumers?
+
+3. Can we identify a connection in the consumer_electronics.csv where changes in market share (sector_market_share) cause variations in the sales volume (monthly_sales)?
+
+4. Looking at the data from consumer_electronics.csv, is there a way to establish if user satisfaction (user_satisfaction) has an impact on a product's market share (sector_market_share)?
+
+5. Does the analysis of the consumer_electronics.csv dataset reveal any causative impacts on monthly sales volume (monthly_sales) due to shifts in user satisfaction (user_satisfaction) or market share (sector_market_share)?","{'causal_problem': ['CSL', None], 'dataset': ['consumer_electronics.csv'], 'nodes': ['monthly_sales', 'user_satisfaction', 'sector_market_share']}"
+5,5,5,political_engagement.csv,"campaign donations,legislation passed","donation_amount,bills_passed","Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
+- Dataset name: political_engagement.csv
+- Interested variable: campaign donations (donation_amount), legislation passed (bills_passed)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: employee_data.csv
+- Interested variable: all variables
+
+The corresponding questions can be:
+- Can we pinpoint the number of instances in the employee_data.csv dataset where one variable directly leads to another?
+- Is there a method to discover every direct influence present in the employee_data.csv dataset?
+- Is there a way to recognize every direct relationship in the employee_data.csv dataset where one variable influences another?
+
+Example 2: given the following information:
+- Dataset name: job_data.csv
+- Interested variable: education (edu), job satisfaction (job_satisfaction)
+
+The corresponding questions can be:
+- Do the records in job_data.csv show if education (edu) directly impacts job satisfaction (job_satisfaction)?
+- Within the job_data.csv dataset, is there causal links between education (edu) and job satisfaction (job_satisfaction)?
+- Within the job_data.csv dataset, is there evidence of causal connections between education (edu) and job satisfaction (job_satisfaction)?
+
+Example 3: given the following information:
+- Dataset name: weather_data.csv
+- Interested variable: temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), local altitude (alt)
+
+The corresponding questions can be:
+- What are causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in dataset weather_data.csv?
+- Within the dataset weather_data.csv, what is the nature of the causal links among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt)?
+- Could you describe the causal relationships among temperature (temp), humidity (humid), rainfall (rain), local latitude (lat), and local altitude (alt) in the weather_data.csv dataset?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions do not mention correlation and association.
+Ensure that the questions place a strong emphasis on the effect existence or the total number.
+Ensure that all variable names under interested variables field exist in all five quetsion.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+","1. In the political_engagement.csv dataset, is there evidence that the amount of campaign donations (donation_amount) directly influences the number of legislations passed (bills_passed)?
+
+2. Does an increase in campaign donations (donation_amount) within the political_engagement.csv dataset lead to a higher count of passed legislation (bills_passed)?
+
+3. Can we detect any direct effects of the size of campaign donations (donation_amount) on the success rate of legislation (bills_passed) in the political_engagement.csv file?
+
+4. Is there a discernible cause-and-effect relationship between the volume of campaign donations (donation_amount) and the quantity of legislation passed (bills_passed) as recorded in political_engagement.csv?
+
+5. Does the political_engagement.csv dataset allow us to identify instances where campaign donations (donation_amount) have a direct effect on the legislation passing process (bills_passed)?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}"

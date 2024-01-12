@@ -1,0 +1,7 @@
+,dataset,treatment,treatment_name,outcome,outcome_name,condition,condition_name,condition_value
+0,housing_market.csv,mortgage rates,interest_rate,vacancy rates,,median home price,median_home_price,0.93
+1,political_engagement.csv,party membership,affiliation_party,legislation passed,,political rallies attendance,political_attendance,0.26
+2,public_health.csv,disease incidence,,vaccination rates,vaccination_rate,life expectancy,average_lifespan,0.77
+3,retail_sales.csv,retail revenue,,consumer spending,customer_expenditure,product demand,demand_level,0.85
+4,consumer_electronics.csv,innovation rate,,product releases,total_releases,user satisfaction,customer_satisfaction,0.46
+5,political_engagement.csv,voter turnout,,campaign donations,,legislation passed,laws_enacted,0.85

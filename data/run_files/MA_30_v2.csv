@@ -1,0 +1,7 @@
+,dataset,treatment,treatment_name,outcome,outcome_name,mediator,mediator_name
+0,housing_market.csv,mortgage rates,interest_rate,median home price,,vacancy rates,
+1,political_engagement.csv,political rallies attendance,,campaign donations,,voter turnout,participation_rate
+2,public_health.csv,life expectancy,,hospital beds per capita,,obesity rates,
+3,retail_sales.csv,product demand,,retail revenue,,consumer spending,expenditure
+4,consumer_electronics.csv,innovation rate,innovation_index,market share,sector_market_share,product releases,releases
+5,political_engagement.csv,campaign donations,campaign_donations,political rallies attendance,attendance_numbers,voter turnout,

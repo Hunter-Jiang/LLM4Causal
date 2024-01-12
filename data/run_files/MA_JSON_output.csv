@@ -1,0 +1,265 @@
+,Unnamed: 0,dataset,treatment,treatment_name,outcome,outcome_name,mediator,mediator_name,prompt,input,output
+0,0,housing_market.csv,mortgage rates,interest_rate,median home price,,vacancy rates,,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: housing_market.csv
+- Treatment variable: mortgage rates (interest_rate)
+- Outcome variable: median home price
+- Mediator variable: vacancy rates
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- How can the smoke.csv data inform us about the specific effect sizes of smoking (smk) on weight changes, both through direct pathways and through indirect pathways mediated by appetite suppression (app_sup)?
+- Looking at the smoke.csv data, can we tell how much smoking (smk) influence a person's weight changes, and is a lot of that because of the appetite suppression (app_sup)?
+- What is the causal effect of smoking (smk) on weight changes as depicted in the smoke.csv dataset, and how much of this effect is mediated through appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- How substantial is the mediating effect of cultural events per capita on the relationship between museum attendance (visitor_count) and the cultural diversity index (CD) within the context of the arts_and_culture.csv data?
+- To what extent does the mediator, cultural events per capita, modify or influence the impact of museum attendance (visitor_count) on the cultural diversity index (CD) in the arts_and_culture.csv dataset?
+- In the arts_and_culture.csv, can we figure out how big a role cultural events per capita plays in linking museum attendance (visitor_count) to cultural diversity index (CD)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. In what way does the mediator, vacancy rates, contribute to the impact that mortgage rates have on the median home price according to the housing_market.csv dataset?
+
+2. Can we determine the degree to which vacancy rates serve as an intermediary in the relationship between mortgage rates and median home price as observed in the housing_market.csv data?
+
+3. What role does the presence of vacancy rates play in the process by which mortgage rates affect the median home price, based on the information from housing_market.csv?
+
+4. How does the housing_market.csv dataset clarify the extent to which vacancy rates drive the effect that mortgage rates exert on the median home price?
+
+5. Within the context of the housing_market.csv file, to what extent are changes in the median home price a result of mortgage rates acting through the mediator known as vacancy rates?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['housing_market.csv'], 'treatment': ['interest_rate'], 'response': ['median_home_price'], 'mediator': ['vacancy_rates']}"
+1,1,political_engagement.csv,political rallies attendance,,campaign donations,,voter turnout,participation_rate,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: campaign donations
+- Mediator variable: voter turnout (participation_rate)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- Is it evidenced by smoke.csv that the pathway from smoking (smk) to weight changes is substantially mediated by appetite suppression (app_sup)?
+- From the insights provided by smoke.csv, can we quantify the mediating influence of appetite suppression (app_sup) on the smoking (smk)-->weight changes?
+- Looking at the smoke.csv data, can we tell how much smoking (smk) influence a person's weight changes, and is a lot of that because of the appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- Regarding the data from arts_and_culture.csv, can we distinguish the direct impact of museum attendance (visitor_count) on cultural diversity index (CD) from the indirect impact that operates through cultural events per capita?
+- Can we measure the extent to which cultural events per capita serve as a mediator in the causal pathway from museum attendance (visitor_count) to cultural diversity index (CD), as represented in arts_and_culture.csv?
+- In the arts_and_culture.csv dataset, how much of the effect of museum attendance (visitor_count) on the cultural diversity index (CD) is directly from the attendance itself, and how much is indirectly through cultural events per capita?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. In the political_engagement.csv data, can we determine how much of the change in campaign donations due to political rallies attendance is actually because of the voter turnout?
+
+2. How significantly does the participation_rate function as a go-between for political rallies attendance and its influence on campaign donations, as seen in the political_engagement.csv information?
+
+3. Is there clear evidence from the political_engagement.csv to suggest that voter turnout is the key factor carrying the effect from political rallies attendance to the increase or decrease in campaign donations?
+
+4. Can we calculate the actual effect political rallies attendance has on campaign donations without the mediating role of voter turnout, using the data from political_engagement.csv?
+
+5. Looking into the political_engagement.csv, how much campaign donations can be accounted for through the impact of political rallies attendance when considering the role of voter turnout in this relationship?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['campaign_donations'], 'mediator': ['participation_rate']}"
+2,2,public_health.csv,life expectancy,,hospital beds per capita,,obesity rates,,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy
+- Outcome variable: hospital beds per capita
+- Mediator variable: obesity rates
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- Is it evidenced by smoke.csv that the pathway from smoking (smk) to weight changes is substantially mediated by appetite suppression (app_sup)?
+- Looking through smoke.csv, can we see a pattern where smoking (smk)'s effect on weight changes is heavily mediated by appetite suppression (app_sup)?
+- Looking at the smoke.csv data, can we tell how much smoking (smk) influence a person's weight changes, and is a lot of that because of the appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- Regarding the data from arts_and_culture.csv, can we distinguish the direct impact of museum attendance (visitor_count) on cultural diversity index (CD) from the indirect impact that operates through cultural events per capita?
+- In the arts_and_culture.csv dataset, how much of the effect of museum attendance (visitor_count) on the cultural diversity index (CD) is directly from the attendance itself, and how much is indirectly through cultural events per capita?
+- How substantial is the mediating effect of cultural events per capita on the relationship between museum attendance (visitor_count) and the cultural diversity index (CD) within the context of the arts_and_culture.csv data?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. In the data from public_health.csv, to what extent does the presence of obesity rates influence the relationship between life expectancy and hospital beds per capita? 
+
+2. Can we establish from the public_health.csv dataset how much of life expectancy's impact on hospital beds per capita might be attributed to changes in obesity rates?
+
+3. How significant is the role of obesity rates in shaping the effect that life expectancy has on the number of hospital beds per capita according to the information in public_health.csv?
+
+4. When assessing the public_health.csv, how substantial is the influence of obesity rates in mediating the effect life expectancy has on the allocation of hospital beds per capita?
+
+5. Based on the findings in public_health.csv, does the mediator variable obesity rates carry a notable portion of the influence that life expectancy exerts on hospital beds per capita?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['public_health.csv'], 'treatment': ['life_expectancy'], 'response': ['hospital_beds_per_capita'], 'mediator': ['obesity_rates']}"
+3,3,retail_sales.csv,product demand,,retail revenue,,consumer spending,expenditure,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: retail_sales.csv
+- Treatment variable: product demand
+- Outcome variable: retail revenue
+- Mediator variable: consumer spending (expenditure)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- Using the smoke.csv data, can we quantify the causal effect size of smoking (smk) on weight changes, specifically assessing the mediation effect size attributed to appetite suppression (app_sup)?
+- Can we determine the effect size of the causal relationship between smoking (smk) and weight changes in the smoke.csv data, and the effect size of the mediating role of appetite suppression (app_sup)?
+- Using causal inference techniques on smoke.csv, how can we quantify the effect size of smoking (smk) on weight changes and disentangle the portion mediated by appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- When looking at the arts_and_culture.csv, how much does cultural events per capita get in the middle of the effect of museum attendance (visitor_count) on cultural diversity index (CD)?
+- Does cultural events per capita serve as a key stepping stone in the causal relationship from museum attendance (visitor_count) to cultural diversity index (CD) in the context of the arts_and_culture.csv?
+- How substantial is the mediating effect of cultural events per capita on the relationship between museum attendance (visitor_count) and the cultural diversity index (CD) within the context of the arts_and_culture.csv data?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. In examining the retail_sales.csv dataset, to what extent does consumer spending drive the relationship between product demand and retail revenue?
+
+2. Can we assess the degree to which consumer spending accounts for the influence of product demand on retail revenue in the retail_sales.csv?
+
+3. How significantly does consumer spending act as an intermediary in the effect of product demand on retail revenue according to the data in retail_sales.csv?
+
+4. When analyzing the retail_sales.csv, what role does consumer spending play in mediating how product demand translates into changes in retail revenue?
+
+5. Within the context of retail_sales.csv, is it possible to measure the extent to which consumer spending carries the impact from product demand to retail revenue?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['retail_sales.csv'], 'treatment': ['product_demand'], 'response': ['retail_revenue'], 'mediator': ['expenditure']}"
+4,4,consumer_electronics.csv,innovation rate,innovation_index,market share,sector_market_share,product releases,releases,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: innovation rate (innovation_index)
+- Outcome variable: market share (sector_market_share)
+- Mediator variable: product releases (releases)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- How can the smoke.csv data inform us about the specific effect sizes of smoking (smk) on weight changes, both through direct pathways and through indirect pathways mediated by appetite suppression (app_sup)?
+- Can we determine the effect size of the causal relationship between smoking (smk) and weight changes in the smoke.csv data, and the effect size of the mediating role of appetite suppression (app_sup)?
+- Looking at the smoke.csv data, can we tell how much smoking (smk) influence a person's weight changes, and is a lot of that because of the appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- When looking at the arts_and_culture.csv, how much does cultural events per capita get in the middle of the effect of museum attendance (visitor_count) on cultural diversity index (CD)?
+- In the arts_and_culture.csv, can we figure out how big a role cultural events per capita plays in linking museum attendance (visitor_count) to cultural diversity index (CD)?
+- Regarding the data from arts_and_culture.csv, can we distinguish the direct impact of museum attendance (visitor_count) on cultural diversity index (CD) from the indirect impact that operates through cultural events per capita?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. How does the product releases variable within the consumer_electronics.csv dataset serve as a pathway that potentially expands or limits the influence of the innovation rate on sector market share?
+
+2. In examining the consumer_electronics.csv data, can we quantify how much product releases contribute to the way innovation rate impacts sector market share?
+
+3. Can we assess from the consumer_electronics.csv the magnitude to which product releases act as an intermediary in the relationship between innovation rate and its effect on sector market share?
+
+4. When analyzing the consumer_electronics.csv, to what extent do product releases play a part in mediating the effect that innovation rate has on changing sector market share?
+
+5. Regarding the insights from consumer_electronics.csv, how can we disentangle the direct effects of innovation rate on sector market share from the effects channeled through product releases?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['consumer_electronics.csv'], 'treatment': ['innovation_index'], 'response': ['sector_market_share'], 'mediator': ['releases']}"
+5,5,political_engagement.csv,campaign donations,campaign_donations,political rallies attendance,attendance_numbers,voter turnout,,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the mediator in mediating the treatment's effect on the outcome:
+- Dataset name: political_engagement.csv
+- Treatment variable: campaign donations (campaign_donations)
+- Outcome variable: political rallies attendance (attendance_numbers)
+- Mediator variable: voter turnout
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: smoke.csv
+- Treatment variable: smoking (smk)
+- Outcome variable: weight changes
+- Mediator variable: appetite suppression (app_sup)
+
+The corresponding questions can be:
+- Does the smoke.csv dataset suggest that appetite suppression (app_sup) is a big reason why people's weight changes when smoking (smk)?
+- What is the causal effect of smoking (smk) on weight changes as depicted in the smoke.csv dataset, and how much of this effect is mediated through appetite suppression (app_sup)?
+- How can the smoke.csv data inform us about the specific effect sizes of smoking (smk) on weight changes, both through direct pathways and through indirect pathways mediated by appetite suppression (app_sup)?
+
+Example 2: given the following information:
+- Dataset name: arts_and_culture.csv
+- Treatment variable: museum attendance (visitor_count)
+- Outcome variable: cultural diversity index (CD)
+- Mediator variable: cultural events per capita
+
+The corresponding questions can be:
+- In the arts_and_culture.csv dataset, how much of the effect of museum attendance (visitor_count) on the cultural diversity index (CD) is directly from the attendance itself, and how much is indirectly through cultural events per capita?
+- In the arts_and_culture.csv, can we figure out how big a role cultural events per capita plays in linking museum attendance (visitor_count) to cultural diversity index (CD)?
+- How substantial is the mediating effect of cultural events per capita on the relationship between museum attendance (visitor_count) and the cultural diversity index (CD) within the context of the arts_and_culture.csv data?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the size of the mediator effect.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+","1. How significant is voter turnout in explaining why campaign donations influence attendance numbers, as shown by the political_engagement.csv data?
+
+2. In the analysis of political_engagement.csv, can we determine the extent to which voter turnout serves as a bridge between campaign donations and the number of people attending political rallies?
+
+3. What role does voter turnout play in the effect that campaign donations have on political rallies attendance, according to the information in political_engagement.csv?
+
+4. Is voter turnout a major factor in the relationship between campaign donations and attendance numbers, when examining the political_engagement.csv dataset?
+
+5. To what degree does voter turnout contribute to the change in attendance numbers as a result of campaign donations, according to the findings from political_engagement.csv?","{'causal_problem': ['CEL', 'MA'], 'dataset': ['political_engagement.csv'], 'treatment': ['campaign_donations'], 'response': ['attendance_numbers'], 'mediator': ['voter_turnout']}"

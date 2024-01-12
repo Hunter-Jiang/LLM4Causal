@@ -1,0 +1,7 @@
+,dataset,var,var_name
+0,housing_market.csv,"median home price,vacancy rates",
+1,political_engagement.csv,"legislation passed,voter turnout,political rallies attendance",
+2,public_health.csv,all_variables,
+3,retail_sales.csv,all_variables,
+4,consumer_electronics.csv,"sales volume,user satisfaction,market share","monthly_sales,user_satisfaction,sector_market_share"
+5,political_engagement.csv,"campaign donations,legislation passed","donation_amount,bills_passed"

@@ -1,0 +1,295 @@
+,Unnamed: 0.1,Unnamed: 0,dataset,treatment,treatment_name,outcome,outcome_name,condition,condition_name,condition_value,prompt,input,output
+0,0,0,housing_market.csv,mortgage rates,interest_rate,vacancy rates,,median home price,median_home_price,0.93,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: housing_market.csv
+- Treatment variable: mortgage rates (interest_rate)
+- Outcome variable: vacancy rates
+- Group Variable: median home price
+- Group Condition: 0.93 (median_home_price=0.93)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- Based on the information in disaster_risk_reduction.csv, what impact does the building code compliance rate have on risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is 0.61?
+- According to the findings in disaster_risk_reduction.csv, when the disaster risk reduction budget is 0.61, how does the building code compliance rate affect the risk assessment coverage (risk_assessment_coverage)?
+- What is the effect of the building code compliance rate on risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is 0.61 according to the data in disaster_risk_reduction.csv?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- Within the dataset financial_inclusion.csv, what patterns emerge regarding microfinance coverage (microfinance_coverage) in relation to fluctuations in the financial inclusion index (index) while maintaining a fixed financial literacy rate of 0.41 (literacy_rate=0.41)?
+- Within financial_inclusion.csv, what kind of patterns are evident in microfinance coverage (microfinance_coverage) concerning changes in the financial inclusion index (index), given a constant financial literacy rate of 0.41 (literacy_rate=0.41)?
+- Examining financial_inclusion.csv, how does the microfinance coverage (microfinance_coverage) vary with changes in the financial inclusion index (index) when the financial literacy rate remains constant at 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. What is the influence of varying mortgage rates on vacancy rates in the housing_market.csv dataset, specifically when the median home price is set at 0.93?
+ 
+2. In cases where the median home price stands at 0.93, can we observe a significant change in vacancy rates due to shifts in mortgage rates according to the data in housing_market.csv?
+
+3. How would an adjustment to mortgage rates translate to changes in vacancy rates within housing_market.csv when we specifically look at homes with a median home price equal to 0.93?
+
+4. Concerning the data in housing_market.csv, what magnitude of impact do changes in mortgage rates have on vacancy rates when analyzing houses grouped by a median home price of 0.93?
+
+5. Focusing on the subgroup of properties with a median home price of 0.93 in housing_market.csv, how does the modification of mortgage rates reflect on the subsequent vacancy rates?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['housing_market.csv'], 'treatment': ['interest_rate'], 'response': ['vacancy_rates'], 'condition': [('median_home_price', 0.93)]}"
+1,1,1,political_engagement.csv,party membership,affiliation_party,legislation passed,,political rallies attendance,political_attendance,0.26,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: political_engagement.csv
+- Treatment variable: party membership (affiliation_party)
+- Outcome variable: legislation passed
+- Group Variable: political rallies attendance
+- Group Condition: 0.26 (political_attendance=0.26)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- Within the scope of disaster_risk_reduction.csv, how does the building code compliance rate impact risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is established at 0.61 (budget=0.61)?
+- Considering the data from disaster_risk_reduction.csv, what insights can be drawn regarding the impact from the building code compliance rate on risk assessment coverage (risk_assessment_coverage) with a disaster risk reduction budget of 0.61 (budget=0.61)?
+- Based on the findings in disaster_risk_reduction.csv, how does the building code compliance rate impact risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is 0.61 (budget=0.61)?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- Examining financial_inclusion.csv, how does the microfinance coverage (microfinance_coverage) vary with changes in the financial inclusion index (index) when the financial literacy rate remains constant at 0.41 (literacy_rate=0.41)?
+- Within the dataset financial_inclusion.csv, what patterns emerge regarding microfinance coverage (microfinance_coverage) in relation to fluctuations in the financial inclusion index (index) while maintaining a fixed financial literacy rate of 0.41 (literacy_rate=0.41)?
+- In the financial_inclusion.csv dataset, what trends are noticeable in microfinance coverage (microfinance_coverage) concerning changes in the financial inclusion index (index), keeping the financial literacy rate constant at 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. How does having a party membership (affiliation_party) influence the number of legislations passed according to the political_engagement.csv dataset, specifically when political rallies attendance is set at 0.26 (political_attendance=0.26)?
+
+2. In the context of the political_engagement.csv, can we see a notable impact on the passage of legislation attributable to party membership (affiliation_party) among those with a political rallies attendance score of 0.26 (political_attendance=0.26)?
+
+3. What effect does party membership (affiliation_party) have on the effectiveness of passing legislation in situations where political rallies attendance is consistently at 0.26 (political_attendance=0.26), as shown in the political_engagement.csv dataset?
+
+4. Does party membership (affiliation_party) significantly alter the legislative outcomes within the political_engagement.csv when assessing groups with a political rallies attendance of 0.26 (political_attendance=0.26)?
+
+5. Is there a discernible difference in the number of legislations passed due to party membership (affiliation_party) in the political_engagement.csv, under the condition where individuals attend political rallies at a rate of 0.26 (political_attendance=0.26)?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['political_engagement.csv'], 'treatment': ['affiliation_party'], 'response': ['legislation_passed'], 'condition': [('political_attendance', 0.26)]}"
+2,2,2,public_health.csv,disease incidence,,vaccination rates,vaccination_rate,life expectancy,average_lifespan,0.77,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: public_health.csv
+- Treatment variable: disease incidence
+- Outcome variable: vaccination rates (vaccination_rate)
+- Group Variable: life expectancy
+- Group Condition: 0.77 (average_lifespan=0.77)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- How does the risk assessment coverage (risk_assessment_coverage) change when the building code compliance rate is factored in, with a disaster risk reduction budget set at 0.61, as per the findings in disaster_risk_reduction.csv?
+- Considering the data from disaster_risk_reduction.csv, what insights can be drawn regarding the impact from the building code compliance rate on risk assessment coverage (risk_assessment_coverage) with a disaster risk reduction budget of 0.61 (budget=0.61)?
+- Within the scope of disaster_risk_reduction.csv, how does the building code compliance rate impact risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is established at 0.61 (budget=0.61)?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- According to financial_inclusion.csv, are there any trends in microfinance coverage (microfinance_coverage) when examining fluctuations in the financial inclusion index (index), while keeping the financial literacy rate steady at 0.41 (literacy_rate=0.41)?
+- Examining financial_inclusion.csv, how does the microfinance coverage (microfinance_coverage) vary with changes in the financial inclusion index (index) when the financial literacy rate remains constant at 0.41 (literacy_rate=0.41)?
+- Within the dataset financial_inclusion.csv, what patterns emerge regarding microfinance coverage (microfinance_coverage) in relation to fluctuations in the financial inclusion index (index) while maintaining a fixed financial literacy rate of 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. Looking at the public_health.csv dataset, what can we understand about the changes in vaccination rates when disease incidence is taken into account, given that life expectancy stands at an average_lifespan of 0.77?
+
+2. In the context of the public_health.csv dataset, how does the introduction of disease incidence influence vaccination rates when we focus on a subset with an average_lifespan of 0.77?
+
+3. Can we see noticeable shifts in vaccination rates as a result of varying disease incidence, when examining the data for a group with an average_lifespan of 0.77, according to the public_health.csv?
+
+4. When analyzing the public_health.csv data, what kind of difference does the disease incidence make on vaccination rates among populations characterized by an average_lifespan of 0.77?
+
+5. From the information in public_health.csv, what effect does disease incidence have on the vaccination rates when we specifically look at groups with a life expectancy benchmarked at average_lifespan 0.77?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['public_health.csv'], 'treatment': ['disease_incidence'], 'response': ['vaccination_rate'], 'condition': [('average_lifespan', 0.77)]}"
+3,3,3,retail_sales.csv,retail revenue,,consumer spending,customer_expenditure,product demand,demand_level,0.85,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: retail_sales.csv
+- Treatment variable: retail revenue
+- Outcome variable: consumer spending (customer_expenditure)
+- Group Variable: product demand
+- Group Condition: 0.85 (demand_level=0.85)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- Considering the data from disaster_risk_reduction.csv, what insights can be drawn regarding the impact from the building code compliance rate on risk assessment coverage (risk_assessment_coverage) with a disaster risk reduction budget of 0.61 (budget=0.61)?
+- In the disaster_risk_reduction.csv data, how does the risk assessment coverage (risk_assessment_coverage) change when the building code compliance rate is considered and the disaster risk reduction budget is 0.61?
+- According to the findings in disaster_risk_reduction.csv, when the disaster risk reduction budget is 0.61, how does the building code compliance rate affect the risk assessment coverage (risk_assessment_coverage)?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- Within the dataset financial_inclusion.csv, what patterns emerge regarding microfinance coverage (microfinance_coverage) in relation to fluctuations in the financial inclusion index (index) while maintaining a fixed financial literacy rate of 0.41 (literacy_rate=0.41)?
+- In financial_inclusion.csv, how does the interplay between the financial inclusion index (index) and microfinance coverage (microfinance_coverage) unfold, especially when the financial literacy rate is consistent at 0.41 (literacy_rate=0.41)?
+- In the financial_inclusion.csv dataset, what trends are noticeable in microfinance coverage (microfinance_coverage) concerning changes in the financial inclusion index (index), keeping the financial literacy rate constant at 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. How does customer expenditure respond to shifts in retail revenue in the retail_sales.csv data when product demand is held steady at a level of 0.85?
+
+2. Can we observe significant changes in customer expenditure as a result of varying retail revenue if we look at cases in the retail_sales.csv where product demand remains fixed at 0.85?
+
+3. When examining the retail_sales.csv dataset, what degree of change is noticed in customer expenditure when retail revenue is adjusted, given that the product demand is set at 0.85?
+
+4. In situations where the retail_sales.csv dataset shows a product demand level of 0.85, what can we infer about the influence of retail revenue on customer expenditure?
+
+5. Across the retail_sales.csv dataset, with product demand constrained to a demand_level of 0.85, what impacts on customer expenditure are detected when retail revenue experiences changes?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['retail_sales.csv'], 'treatment': ['retail_revenue'], 'response': ['customer_expenditure'], 'condition': [('demand_level', 0.85)]}"
+4,4,4,consumer_electronics.csv,innovation rate,,product releases,total_releases,user satisfaction,customer_satisfaction,0.46,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: innovation rate
+- Outcome variable: product releases (total_releases)
+- Group Variable: user satisfaction
+- Group Condition: 0.46 (customer_satisfaction=0.46)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- According to the findings in disaster_risk_reduction.csv, when the disaster risk reduction budget is 0.61, how does the building code compliance rate affect the risk assessment coverage (risk_assessment_coverage)?
+- Considering the data from disaster_risk_reduction.csv, what insights can be drawn regarding the impact from the building code compliance rate on risk assessment coverage (risk_assessment_coverage) with a disaster risk reduction budget of 0.61 (budget=0.61)?
+- How does the risk assessment coverage (risk_assessment_coverage) change when the building code compliance rate is factored in, with a disaster risk reduction budget set at 0.61, as per the findings in disaster_risk_reduction.csv?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- Within financial_inclusion.csv, what kind of patterns are evident in microfinance coverage (microfinance_coverage) concerning changes in the financial inclusion index (index), given a constant financial literacy rate of 0.41 (literacy_rate=0.41)?
+- According to financial_inclusion.csv, are there any trends in microfinance coverage (microfinance_coverage) when examining fluctuations in the financial inclusion index (index), while keeping the financial literacy rate steady at 0.41 (literacy_rate=0.41)?
+- In financial_inclusion.csv, how does the interplay between the financial inclusion index (index) and microfinance coverage (microfinance_coverage) unfold, especially when the financial literacy rate is consistent at 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. How does the innovation rate influence the total number of product releases in the consumer_electronics.csv dataset when user satisfaction is held at a level of 0.46?
+
+2. In light of the consumer_electronics.csv data, can we see a noticeable impact on product releases when the innovation rate is adjusted, given that customer satisfaction remains constant at 0.46?
+
+3. What effect does varying the innovation rate have on the volume of total_releases recorded in the consumer_electronics.csv, under the specific condition where user satisfaction is at 0.46?
+
+4. When examining the consumer_electronics.csv, what can be inferred about the change in total_releases as a result of shifts in the innovation rate, while maintaining user satisfaction at the 0.46 benchmark?
+
+5. Considering the consumer_electronics.csv, how might the innovation rate drive changes in total_releases, especially when taking into account a user satisfaction score of 0.46?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['consumer_electronics.csv'], 'treatment': ['innovation_rate'], 'response': ['total_releases'], 'condition': [('customer_satisfaction', 0.46)]}"
+5,5,5,political_engagement.csv,voter turnout,,campaign donations,,legislation passed,laws_enacted,0.85,"Given the details below, generate five diverse and plain-worded questions asking about the impact of the treatment on the outcome under a group condition:
+- Dataset name: political_engagement.csv
+- Treatment variable: voter turnout
+- Outcome variable: campaign donations
+- Group Variable: legislation passed
+- Group Condition: 0.85 (laws_enacted=0.85)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: disaster_risk_reduction.csv
+- Treatment variable: building code compliance rate
+- Outcome variable: risk assessment coverage (risk_assessment_coverage)
+- Group Variable: disaster risk reduction budget
+- Group Condition: 0.61 (budget=0.61)
+
+The corresponding questions can be:
+- What is the effect of the building code compliance rate on risk assessment coverage (risk_assessment_coverage) when the disaster risk reduction budget is 0.61 according to the data in disaster_risk_reduction.csv?
+- In the disaster_risk_reduction.csv data, how does the risk assessment coverage (risk_assessment_coverage) change when the building code compliance rate is considered and the disaster risk reduction budget is 0.61?
+- How does the risk assessment coverage (risk_assessment_coverage) change when the building code compliance rate is factored in, with a disaster risk reduction budget set at 0.61, as per the findings in disaster_risk_reduction.csv?
+
+Example 2: given the following information:
+- Dataset name: financial_inclusion.csv
+- Treatment variable: financial inclusion index (index)
+- Outcome variable: microfinance coverage (microfinance_coverage)
+- Group Variable: financial literacy rate
+- Group Condition: 0.41 (literacy_rate=0.41)
+
+The corresponding questions can be:
+- Examining financial_inclusion.csv, how does the microfinance coverage (microfinance_coverage) vary with changes in the financial inclusion index (index) when the financial literacy rate remains constant at 0.41 (literacy_rate=0.41)?
+- In the financial_inclusion.csv dataset, what trends are noticeable in microfinance coverage (microfinance_coverage) concerning changes in the financial inclusion index (index), keeping the financial literacy rate constant at 0.41 (literacy_rate=0.41)?
+- According to financial_inclusion.csv, are there any trends in microfinance coverage (microfinance_coverage) when examining fluctuations in the financial inclusion index (index), while keeping the financial literacy rate steady at 0.41 (literacy_rate=0.41)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions place a strong emphasis on the effect size.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that both the group condition variable name and a value expressed in the parenthsis are inside of the question.
+","1. How does the voter turnout influence campaign donations when the legislation passed measure is at 0.85, as shown in the political_engagement.csv dataset?
+   
+2. Can we observe a noticeable change in campaign donations due to varying levels of voter turnout within the political_engagement.csv file, specifically when laws_enacted is fixed at 0.85?
+
+3. Looking at the data in political_engagement.csv, what can we say about the impact of voter turnout on campaign donations when the group variable of legislation passed remains at the level of 0.85?
+
+4. From the information in political_engagement.csv, what effect does voter turnout have on the amount of campaign donations received, given that legislation passed is at a steady rate of 0.85?
+
+5. According to the political_engagement.csv, how are campaign donations affected by changes in voter turnout, while keeping the condition of legislation passed at a constant value of 0.85?","{'causal_problem': ['CEL', 'HTE'], 'dataset': ['political_engagement.csv'], 'treatment': ['voter_turnout'], 'response': ['campaign_donations'], 'condition': [('laws_enacted', 0.85)]}"
