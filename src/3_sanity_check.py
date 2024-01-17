@@ -79,16 +79,25 @@ def check_input(input_raw, check_list, idx):
   return input_raw
 
 def change_csl(df_in):
-	df_in.at[5, "input"] = "Does the political_engagement.csv dataset offer insights into whether the number of legislation passed directly impacts voter turnout and attendance at political rallies attendance?"
-	df_in.at[8, "input"] = "Is there evidence within the political_engagement.csv that suggests political rallies attendance has a direct influence on the rate of legislation passed or the level of voter turnout?"
+	df_in.at[0, "input"] = "Are there any discernible effects on median home price and vacancy rates within the housing_market.csv dataset?"
+	df_in.at[1, "input"] = "In the housing_market.csv dataset, what causal connections exist between the median home price and vacancy rates?"
+	df_in.at[3, "input"] = "Can the housing_market.csv dataset provide evidence of any causal relationships between median home price and vacancy rates?"
+	df_in.at[4, "input"] = "Within the housing_market.csv dataset, what causal links can be determined between median home price and vacancy rates?"
+	df_in.at[5, "input"] = "Is there evidence in the political_engagement.csv dataset indicating a significant impact of legislation passed, voter turnout, and political rallies attendance on one another?"
+	df_in.at[6, "input"] = "Within the political_engagement.csv dataset, can you outline the causal connections among legislation passed, voter turnout, and political rallies attendance"
+	df_in.at[7, "input"] = "Could you identify any direct relationships within the political_engagement.csv dataset where one variable influences another among legislation passed, voter turnout, and political rallies attendance?"
+	df_in.at[8, "input"] = "Can we determine the presence of causal effects among legislation passed, voter turnout, and political rallies attendance using the political_engagement.csv dataset?"
+	df_in.at[9, "input"] = "Can the political_engagement.csv dataset reveal any direct relationships between legislation passed, voter turnout, and political rallies attendance?"
+	df_in.at[16, "input"] = "Can we determine the existence of causal effects between the variables in the retail_sales.csv dataset?"
 	df_in.at[20, "input"] = "In the consumer_electronics.csv dataset, what are the causal pathways among user satisfaction (user_satisfaction), the monthly sales volume (monthly_sales), and market share (sector_market_share)?"
 	df_in.at[21, "input"] = "Can we identify any causal connections among user satisfaction (user_satisfaction), the monthly sales volume (monthly_sales), and market share (sector_market_share) from the consumer_electronics.csv dataset?"
 	df_in.at[22, "input"] = "Are there any causal effects documented in the consumer_electronics.csv dataset among user satisfaction (user_satisfaction), the monthly sales volume (monthly_sales), and market share (sector_market_share)?"
 	df_in.at[23, "input"] = "Looking at the data from consumer_electronics.csv, is there a way to establish causal effects among user satisfaction (user_satisfaction), the monthly sales volume (monthly_sales), and market share (sector_market_share)?"
-	df_in.at[25, "input"] = "In the political_engagement.csv dataset, is there evidence that the amount of campaign donations (donation_amount) directly influences the number of legislation passed (bills_passed)?"
-	df_in.at[26, "input"] = "Does an increase in campaign donations (donation_amount) within the political_engagement.csv dataset lead to a higher count of legislation passed (bills_passed)?"
-	df_in.at[27, "input"] = "Can we detect any direct effects of the size of campaign donations (donation_amount) on the success rate of legislation passed (bills_passed) in the political_engagement.csv file?"
-	df_in.at[29, "input"] = "Does the political_engagement.csv dataset allow us to identify instances where campaign donations (donation_amount) have a direct effect on the the number of legislation passed (bills_passed)?"
+	df_in.at[24, "input"] = "Within the consumer_electronics.csv dataset, what is the nature of the causal connections among sales volume (monthly_sales), user satisfaction (user_satisfaction), and market share (sector_market_share)?"
+	df_in.at[25, "input"] = "Are there any causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?"
+	df_in.at[26, "input"] = "Does the political_engagement.csv dataset provide evidence of a direct link between building campaign donations (donation_amount) and legislation passed (bills_passed)?"
+	df_in.at[27, "input"] = "Can you identify the presence of causal links between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?"
+	df_in.at[29, "input"] = "Are there any evident causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?"
 
 	return df_in
 
@@ -137,11 +146,23 @@ def change_hte(df_in):
 	return df_in
 
 def change_ma(df_in):
+	df_in.at[2, "input"] = "How can the housing_market.csv dataset help us estimate the magnitude of the impact of mortgage rates (interest_rate) on the median home price, while considering the role of the vacancy rates as a mediator?"
+	df_in.at[3, "input"] = "Based on the housing_market.csv dataset, can we estimate the extent to which vacancy rates mediates the relationship between the treatment variable mortgage rates (interest_rate) and the outcome variable median home price?"
+	df_in.at[5, "input"] = "Within the political_engagement.csv dataset, to what extent does the voter turnout (participation_rate) mediates the effect of political rallies attendance on the campaign donations?"
 	df_in.at[6, "input"] = "How significantly does the voter turnout (participation_rate) function as a go-between for political rallies attendance and its influence on campaign donations, as seen in the political_engagement.csv information?"
-	df_in.at[25, "input"] = "How significant is voter turnout in explaining why campaign donations (campaign_donations) influence political rallies attendance (attendance_numbers), as shown by the political_engagement.csv data?"
+	df_in.at[7, "input"] = "Can we determine the direct causal impact of political rallies attendance on the campaign donations in the political_engagement.csv dataset, and how significant is the role of voter turnout (participation_rate) as a mediator in this relationship?"
+	df_in.at[10, "input"] = "How much of the effect of the treatment variable, life expectancy, on the outcome variable, hospital beds per capita, is mediated by the mediator variable, obesity rates, within the public_health.csv dataset?"
+	df_in.at[11, "input"] = "Within the context of the public_health.csv data, what is the size of the mediator effect of the obesity rates in mediating the relationship between life expectancy and the outcome of the hospital beds per capita?"
+	df_in.at[12, "input"] = "What is the extent to which obesity rates mediates the relationship between the treatment variable, life expectancy, and the outcome viable, the hospital beds per capita, in the public_health.csv dataset?"
+	df_in.at[15, "input"] = "How much of the effect of product demand on retail revenue can be attributed to the mediating factor of consumer spending (expenditure), as revealed by the retail_sales.csv dataset?"
+	df_in.at[16, "input"] = "In the retail_sales.csv dataset, what is the proportion of the impact of product demand on retail revenue that is explained by the mediator variable of consumer spending (expenditure)?"
+	df_in.at[19, "input"] = "How influential is the role of the consumer spending (expenditure) as a mediator in linking the product demand to the retail revenue, according to the retail_sales.csv dataset?"
+	df_in.at[21, "input"] = "Within the consumer_electronics.csv dataset, how significant is the mediated effect of product releases (releases) in explaining the relationship between the treatment variable innovation rate (innovation_index) and the outcome variable market share (sector_market_share)?"
+	df_in.at[25, "input"] = "By analyzing the political_engagement.csv data, how can we quantify the specific contribution of the mediator variable, voter turnout, in explaining the effect of campaign donations (campaign_donations) on the political rallies attendance (attendance_numbers)?"
 	df_in.at[26, "input"] = "In the analysis of political_engagement.csv, can we determine the extent to which voter turnout serves as a bridge between campaign donations (campaign_donations) and the number of political rallies attendance (attendance_numbers)?"
-	df_in.at[28, "input"] = "Is voter turnout a major factor in the relationship between campaign donations (campaign_donations) and political rallies attendance (attendance_numbers), when examining the political_engagement.csv dataset?"
-	df_in.at[29, "input"] = "To what degree does voter turnout contribute to the change in political rallies attendance (attendance_numbers) as a result of campaign donations (campaign_donations), according to the findings from political_engagement.csv?"
+	df_in.at[27, "input"] = "How significant is the role of voter turnout as a mediator in the causal pathway from campaign donations (campaign_donations) to the political rallies attendance (attendance_numbers) in the political_engagement.csv dataset?"
+	df_in.at[28, "input"] = "To what extent does the voter turnout mediate the relationship between campaign donations (campaign_donations) and the political rallies attendance (attendance_numbers), as indicated by the political_engagement.csv dataset?"
+	df_in.at[29, "input"] = "In the political_engagement.csv dataset, what is the extent of the mediator effect of voter turnout on the relationship between the campaign donations (campaign_donations) and political rallies attendance (attendance_numbers)?"
 	return df_in
 
 def change_cpl(df_in):

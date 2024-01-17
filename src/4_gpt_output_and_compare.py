@@ -195,8 +195,8 @@ def get_tools():
     },
 ]
 
-def get_gpt_response():
-    data = pd.read_csv("../data/replicates/evaluate_p30.csv")
+def get_gpt_response(input_file, output_file, model):
+    data = pd.read_csv(input_file)
     data["name"] = None
     print(data.head())
 
@@ -210,7 +210,7 @@ def get_gpt_response():
       messages.append({"role": "user",
                        "content": input_query})
       chat_response = chat_completion_request(
-          messages, tools=tools
+          messages, tools=tools, model = model
       )
       assistant_message = chat_response.json()["choices"][0]["message"]
       try:
@@ -224,11 +224,11 @@ def get_gpt_response():
       print(data.at[idx, "name"])
     print(data.head())
 
-    data.to_csv("../data/run_files/gpt4t_run_p30.csv")
+    data.to_csv(output_file)
 
-def get_gpt_guided_response():
+def get_gpt_guided_response(input_file, output_file, model):
     #assistant_message["tool_calls"][0]["function"]
-    data = pd.read_csv("../data/replicates/evaluate_p30.csv")
+    data = pd.read_csv(input_file)
     data["name"] = None
     print(data.head())
     for idx, row in data.iterrows():
@@ -254,7 +254,10 @@ def get_gpt_guided_response():
       messages.append({"role": "user",
                        "content": input_query})
       chat_response = chat_completion_request(
-          messages, tools=[tool1], tool_choice={"type": "function", "function": {"name": tool1["function"]["name"]}}
+          messages, 
+          tools=[tool1], 
+          tool_choice={"type": "function", "function": {"name": tool1["function"]["name"]}},
+          model = model
       )
       assistant_message = chat_response.json()["choices"][0]["message"]
       try:
@@ -266,17 +269,23 @@ def get_gpt_guided_response():
       print("-" * 50)
       print(row["output"])
       print(data.at[idx, "name"])
-    data.to_csv("../data/run_files/gpt4t_guided_run_p30.csv")
+    data.to_csv(output_file)
 
 if __name__ in "__main__":
     with open("openai_key.txt", "rb") as handle:
         str_in = handle.readline()
     openai.api_key = str_in.decode('UTF-8')
-    #GPT_MODEL = "gpt-3.5-turbo"#"gpt-4-1106-preview"
+    GPT_MODEL = "gpt-4-1106-preview" # "gpt-4-1106-preview"# "gpt-3.5-turbo"#
 
     tools = get_tools()
-    get_gpt_response()
-    get_gpt_guided_response()
+    get_gpt_response(
+        input_file = "../data/replicates/evaluate_p30.csv",
+        output_file = "../data/run_files/gpt4t_run_p30.csv",
+        model = GPT_MODEL)
+    get_gpt_guided_response(
+        input_file = "../data/replicates/evaluate_p30.csv",
+        output_file = "../data/run_files/gpt4t_guided_run_p30.csv",
+        model = GPT_MODEL)
     
 
 

@@ -37,7 +37,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-"," In the housing_market.csv dataset, is there a clear indication that vacancy rates have an influence on the median home price?","{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates"," In the housing_market.csv dataset, is there a clear indication that vacancy rates have an influence on the median home price?"
+",Are there any discernible effects on median home price and vacancy rates within the housing_market.csv dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates",Are there any discernible effects on median home price and vacancy rates within the housing_market.csv dataset?
 1,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: housing_market.csv
 - Interested variable: median home price, vacancy rates
@@ -76,7 +76,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-", Can we determine from the data in housing_market.csv whether changes in median home price are a result of shifts in vacancy rates?,"{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates", Can we determine from the data in housing_market.csv whether changes in median home price are a result of shifts in vacancy rates?
+","In the housing_market.csv dataset, what causal connections exist between the median home price and vacancy rates?","{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates","In the housing_market.csv dataset, what causal connections exist between the median home price and vacancy rates?"
 2,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: housing_market.csv
 - Interested variable: median home price, vacancy rates
@@ -154,7 +154,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-"," Looking at the information in housing_market.csv, is there any sign that the vacancy rates play a role in determining the median home price?","{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates"," Looking at the information in housing_market.csv, is there any sign that the vacancy rates play a role in determining the median home price?"
+",Can the housing_market.csv dataset provide evidence of any causal relationships between median home price and vacancy rates?,"{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates",Can the housing_market.csv dataset provide evidence of any causal relationships between median home price and vacancy rates?
 4,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: housing_market.csv
 - Interested variable: median home price, vacancy rates
@@ -193,7 +193,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-", Is there any evidence within the housing_market.csv dataset to suggest that the median home price could be driven by the vacancy rates?,"{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates", Is there any evidence within the housing_market.csv dataset to suggest that the median home price could be driven by the vacancy rates?
+","Within the housing_market.csv dataset, what causal links can be determined between median home price and vacancy rates?","{'causal_problem': ['CSL', None], 'dataset': ['housing_market.csv'], 'nodes': ['median_home_price', 'vacancy_rates']}","median home price,vacancy rates","Within the housing_market.csv dataset, what causal links can be determined between median home price and vacancy rates?"
 5,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: legislation passed, voter turnout, political rallies attendance
@@ -232,7 +232,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-",Does the political_engagement.csv dataset offer insights into whether the number of legislation passed directly impacts voter turnout and attendance at political rallies attendance?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance",Does the political_engagement.csv dataset offer insights into whether the number of legislation passed directly impacts voter turnout and attendance at political rallies attendance?
+","Is there evidence in the political_engagement.csv dataset indicating a significant impact of legislation passed, voter turnout, and political rallies attendance on one another?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance","Is there evidence in the political_engagement.csv dataset indicating a significant impact of legislation passed, voter turnout, and political rallies attendance on one another?"
 6,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: legislation passed, voter turnout, political rallies attendance
@@ -271,7 +271,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-"," In examining the political_engagement.csv dataset, is there any indication that increased political rallies attendance leads to a change in the rate of legislation passed or voter turnout?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance"," In examining the political_engagement.csv dataset, is there any indication that increased political rallies attendance leads to a change in the rate of legislation passed or voter turnout?"
+","Within the political_engagement.csv dataset, can you outline the causal connections among legislation passed, voter turnout, and political rallies attendance","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance","Within the political_engagement.csv dataset, can you outline the causal connections among legislation passed, voter turnout, and political rallies attendance"
 7,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: legislation passed, voter turnout, political rallies attendance
@@ -310,7 +310,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-", Can we observe from the data in political_engagement.csv a direct effect of voter turnout on the number of legislation passed and the frequency of political rallies attendance?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance", Can we observe from the data in political_engagement.csv a direct effect of voter turnout on the number of legislation passed and the frequency of political rallies attendance?
+","Could you identify any direct relationships within the political_engagement.csv dataset where one variable influences another among legislation passed, voter turnout, and political rallies attendance?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance","Could you identify any direct relationships within the political_engagement.csv dataset where one variable influences another among legislation passed, voter turnout, and political rallies attendance?"
 8,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: legislation passed, voter turnout, political rallies attendance
@@ -349,7 +349,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-",Is there evidence within the political_engagement.csv that suggests political rallies attendance has a direct influence on the rate of legislation passed or the level of voter turnout?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance",Is there evidence within the political_engagement.csv that suggests political rallies attendance has a direct influence on the rate of legislation passed or the level of voter turnout?
+","Can we determine the presence of causal effects among legislation passed, voter turnout, and political rallies attendance using the political_engagement.csv dataset?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance","Can we determine the presence of causal effects among legislation passed, voter turnout, and political rallies attendance using the political_engagement.csv dataset?"
 9,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: legislation passed, voter turnout, political rallies attendance
@@ -388,7 +388,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-"," From the information in political_engagement.csv, what instances show that the quantity of legislation passed has a direct effect on both voter turnout and political rallies attendance?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance"," From the information in political_engagement.csv, what instances show that the quantity of legislation passed has a direct effect on both voter turnout and political rallies attendance?"
+","Can the political_engagement.csv dataset reveal any direct relationships between legislation passed, voter turnout, and political rallies attendance?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['legislation_passed', 'voter_turnout', 'political_rallies_attendance']}","legislation passed,voter turnout,political rallies attendance","Can the political_engagement.csv dataset reveal any direct relationships between legislation passed, voter turnout, and political rallies attendance?"
 10,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: public_health.csv
 - Interested variable: all variables
@@ -661,7 +661,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-", Does the data in retail_sales.csv reveal if certain variables serve as the root cause for fluctuations in other areas within the same dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['retail_sales.csv'], 'nodes': ['all_variables']}",all_variables, Does the data in retail_sales.csv reveal if certain variables serve as the root cause for fluctuations in other areas within the same dataset?
+",Can we determine the existence of causal effects between the variables in the retail_sales.csv dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['retail_sales.csv'], 'nodes': ['all_variables']}",all_variables,Can we determine the existence of causal effects between the variables in the retail_sales.csv dataset?
 17,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: retail_sales.csv
 - Interested variable: all variables
@@ -973,7 +973,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-", Does the analysis of the consumer_electronics.csv dataset reveal any causative impacts on monthly sales volume (monthly_sales) due to shifts in user satisfaction (user_satisfaction) or market share (sector_market_share)?,"{'causal_problem': ['CSL', None], 'dataset': ['consumer_electronics.csv'], 'nodes': ['monthly_sales', 'user_satisfaction', 'sector_market_share']}","sales volume,user satisfaction,market share", Does the analysis of the consumer_electronics.csv dataset reveal any causative impacts on monthly sales volume (monthly_sales) due to shifts in user satisfaction (user_satisfaction) or market share (sector_market_share)?
+","Within the consumer_electronics.csv dataset, what is the nature of the causal connections among sales volume (monthly_sales), user satisfaction (user_satisfaction), and market share (sector_market_share)?","{'causal_problem': ['CSL', None], 'dataset': ['consumer_electronics.csv'], 'nodes': ['monthly_sales', 'user_satisfaction', 'sector_market_share']}","sales volume,user satisfaction,market share","Within the consumer_electronics.csv dataset, what is the nature of the causal connections among sales volume (monthly_sales), user satisfaction (user_satisfaction), and market share (sector_market_share)?"
 25,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: campaign donations (donation_amount), legislation passed (bills_passed)
@@ -1012,7 +1012,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-","In the political_engagement.csv dataset, is there evidence that the amount of campaign donations (donation_amount) directly influences the number of legislation passed (bills_passed)?","{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed","In the political_engagement.csv dataset, is there evidence that the amount of campaign donations (donation_amount) directly influences the number of legislation passed (bills_passed)?"
+",Are there any causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Are there any causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?
 26,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: campaign donations (donation_amount), legislation passed (bills_passed)
@@ -1051,7 +1051,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-",Does an increase in campaign donations (donation_amount) within the political_engagement.csv dataset lead to a higher count of legislation passed (bills_passed)?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Does an increase in campaign donations (donation_amount) within the political_engagement.csv dataset lead to a higher count of legislation passed (bills_passed)?
+",Does the political_engagement.csv dataset provide evidence of a direct link between building campaign donations (donation_amount) and legislation passed (bills_passed)?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Does the political_engagement.csv dataset provide evidence of a direct link between building campaign donations (donation_amount) and legislation passed (bills_passed)?
 27,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: campaign donations (donation_amount), legislation passed (bills_passed)
@@ -1090,7 +1090,7 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-",Can we detect any direct effects of the size of campaign donations (donation_amount) on the success rate of legislation passed (bills_passed) in the political_engagement.csv file?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Can we detect any direct effects of the size of campaign donations (donation_amount) on the success rate of legislation passed (bills_passed) in the political_engagement.csv file?
+",Can you identify the presence of causal links between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Can you identify the presence of causal links between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?
 28,"Given the details below, generate five diverse and plain-worded questions asking about the existence of causal effects between interested variables:
 - Dataset name: political_engagement.csv
 - Interested variable: campaign donations (donation_amount), legislation passed (bills_passed)
@@ -1168,4 +1168,4 @@ Ensure that the questions do not mention correlation and association.
 Ensure that the questions place a strong emphasis on the effect existence or the total number.
 Ensure that all variable names under interested variables field exist in all five quetsion.
 Ensure that the provided interested variable names are integrated naturally into the questions without discarding or altering any part of them.
-",Does the political_engagement.csv dataset allow us to identify instances where campaign donations (donation_amount) have a direct effect on the the number of legislation passed (bills_passed)?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Does the political_engagement.csv dataset allow us to identify instances where campaign donations (donation_amount) have a direct effect on the the number of legislation passed (bills_passed)?
+",Are there any evident causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?,"{'causal_problem': ['CSL', None], 'dataset': ['political_engagement.csv'], 'nodes': ['donation_amount', 'bills_passed']}","campaign donations,legislation passed",Are there any evident causal effects between campaign donations (donation_amount) and legislation passed (bills_passed) in the political_engagement.csv dataset?

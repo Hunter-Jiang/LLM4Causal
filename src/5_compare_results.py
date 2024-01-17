@@ -22,27 +22,38 @@ def check_row(row):
     case _:
       ret["causal_problem"] = [0, 1]
 
-  if ret["causal_problem"] == [0, 1]:
-    for key in gold.keys():
-      ret[key] = [0, 1]
-    return ret
+  #if ret["causal_problem"] == [0, 1]:
+  #  for key in gold.keys():
+  #    ret[key] = [0, 1]
+  #  return ret
 
   for key in gold.keys():
     if key == "causal_problem":
       continue
     if key not in ["condition", "response"]:
-      if gold[key][0] == predict[key]:
-        ret[key] = [1, 1]
-      else:
+      if key not in predict:
         ret[key] = [0, 1]
+      else:
+        if soft_equal(gold[key][0],predict[key]):# gold[key][0] == predict[key]:
+          ret[key] = [1, 1]
+        else:
+          ret[key] = [0, 1]
     elif key in ["response"]:
-      if gold["response"][0] == predict["outcome"]:
-        ret[key] = [1, 1]
+      if "outcome" in predict:
+        if soft_equal(gold["response"][0],predict["outcome"]): #gold["response"][0] == predict["outcome"]:
+          ret[key] = [1, 1]
+        else:
+          ret[key] = [0, 1]
       else:
         ret[key] = [0, 1]
     else:
       if "condition_variable" in predict.keys():
-        if (gold["condition"][0][0] == predict["condition_variable"]) and (gold["condition"][0][1] == predict["condition_value"]):
+        if soft_equal(
+            gold["condition"][0][0],
+            predict["condition_variable"]) and soft_equal(
+            gold["condition"][0][1],
+            predict["condition_value"]):
+            #:#(gold["condition"][0][0] == predict["condition_variable"]) and (gold["condition"][0][1] == predict["condition_value"]):
           ret[key] = [1, 1]
         else:
           ret[key] = [0, 1]
@@ -60,15 +71,15 @@ def check_row_ours(row):
   ret = {}
   for key in gold.keys():
     if key in predict.keys():
-      if gold[key] == predict[key]:
+      if soft_equal(gold[key],predict[key]):
         ret[key] = [1, 1]
       else:
         ret[key] = [0, 1]
     else:
       ret[key] = [0, 1]
-  if ret["causal_problem"] == [0, 1]:
-    for key in ret.keys():
-      ret[key] = [0, 1]
+  #if ret["causal_problem"] == [0, 1]:
+  #  for key in ret.keys():
+  #    ret[key] = [0, 1]
   return ret
 
 def check_data_ours(data):
@@ -112,16 +123,60 @@ def check_data(data):
       print("-"*50)
   return tot_res
 
+def soft_equal(input_a, input_b):
+  #print(stra, strb, type(stra), type(strb), "\n\n")
+  #print(type(stra[0]))
+
+  # special trt to condition (as it is tuple)
+  if type(input_a) == list:
+    if type(input_a[0]) == tuple:
+      input_a = [input_a[0][0], input_a[0][1]]
+      input_b = [input_b[0][0], input_b[0][1]]
+    input_a  = [str(x) for x in input_a]
+    input_b  = [str(x) for x in input_b]
+  else:
+    input_a = [str(input_a)]
+    input_b = [str(input_b)]
+
+  # soft match
+  flag = True
+  for item in input_a:
+    match_flag = False
+    item_soft = item
+    # delete "s" and "es"
+    if item_soft[-2:] == "es":
+      item_soft = item_soft[:-2]
+    elif item_soft[-1] == "s":
+      item_soft = item_soft[:-1]
+    # find inclusion
+    for item1 in input_b:
+      if item1.find(item_soft) > -1:
+        match_flag = True
+        break
+    if not match_flag:
+      flag = False
+  #flag = input_a == input_b
+  return flag
 
 if __name__ in "__main__":
-  data_gpt_35 = pd.read_csv("../data/run_files/gpt4t_guided_run_p30.csv")
-  with open("../data/replicates/evalutate_30p_s1.pkl", "rb") as handle:
-    data_s1 = pickle.load(handle)
-  print(data_s1)
-  data_gpt_35["predict"] = data_s1
-  ret = check_data_ours(data_gpt_35)
-  for key in ret.keys():
-    print(key, ret[key][0] / ret[key][1])
-  print(ret)
+  # ours == LLM4Causal, others == gpt
+  work_type = "ours"
+
+  if work_type == "ours":
+    data_gpt_35 = pd.read_csv("../data/run_files/gpt35_guided_run_p30.csv")
+    with open("../data/replicates/evalutate_30p_s1.pkl", "rb") as handle:
+      data_s1 = pickle.load(handle)
+    print(data_s1)
+    data_gpt_35["predict"] = data_s1
+    ret = check_data_ours(data_gpt_35)
+    for key in ret.keys():
+      print(key, ret[key][0] / ret[key][1])
+    print(ret)
+  else:
+    data_gpt_35 = pd.read_csv("../data/run_files/gpt35_run_p30.csv") #_guided
+    ret = check_data(data_gpt_35)
+    for key in ret.keys():
+      print(key, ret[key][0] / ret[key][1])
+    print(ret)
 
   
