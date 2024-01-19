@@ -1,0 +1,126 @@
+,field,variable,name,category
+0, climate change ,average temperature,"avg_temperature, average_temp, mean_temperature, temperature_average, temp_avg",continuous
+1, climate change ,sea level rise,"sea_level_rise, sea_rise, sea_level_increase, rise_in_sea_level, coastal_rise",continuous
+2, climate change ,CO2 emissions,"co2_emissions, emissions_co2, carbon_dioxide_emissions, co2_output, carbon_emissions",continuous
+3, climate change ,deforestation rates,"deforestation_rate, deforestation, forest_loss_rate, tree_clearance_rate, logging_rate",continuous
+4, climate change ,ice cap melting rate,"melting_rate, ice_cap_melting, ice_melt_rate, cap_melting_speed, ice_melting_velocity",continuous
+5, public health ,vaccination rates,"vaccination_rate, vaccine_coverage, immunization_rate, vaccination_percentage, coverage_rate",continuous
+6, public health ,disease incidence,"incidence_rate, disease_incidence, incidence, disease_rate, infection_rate",continuous
+7, public health ,life expectancy,"life_expectancy, expectancy, average_lifespan, expected_lifespan, lifespan",continuous
+8, public health ,hospital beds per capita,"beds_per_capita, hospital_beds_capita, per_capita_beds, capita_bed_ratio, healthcare_capacity",continuous
+9, public health ,obesity rates,"obesity_rates, obesity_percentage, obesity_level, obesity_index, rate_of_obesity",continuous
+10, housing market ,median home price,"median_home_price, median_price, home_price, median_house_price, house_price_median",continuous
+11, housing market ,housing starts,"housing_starts, new_constructions, building_commencements, residential_starts, construction_initiations",continuous
+12, housing market ,mortgage rates,"mortgage_rate, interest_rate, home_loan_rate, property_interest, lending_rate",continuous
+13, housing market ,rent prices,"rent, price, rent_price, monthly_rent, rental_cost",continuous
+14, housing market ,vacancy rates,"vacancy_rate, vacancy_percentage, rate_of_vacancy, vacancy_ratio, empty_units_rate",continuous
+15, energy consumption ,electricity usage,"electricity_usage, power_consumption, energy_use, usage_electric, electric_use",continuous
+16, energy consumption ,renewable energy production,"renewable_production, energy_production, green_energy_output, sustainable_energy, clean_energy_generated",continuous
+17, energy consumption ,oil consumption,"oil_consumption, consumption_oil, oil_usage, annual_oil_consumption, total_oil_consumed",continuous
+18, energy consumption ,energy efficiency,"energy_efficiency, efficiency_rating, efficiency_score, energy_efficiency_value, energy_saving_efficiency",continuous
+19, energy consumption ,carbon footprint,"carbon_footprint, footprint_carbon, CO2_footprint, greenhouse_gas_emissions, emissions_footprint",continuous
+20, retail sales ,consumer spending,"spending, consumer_spending, expenditure, customer_expenditure, purchase_total",continuous
+21, retail sales ,retail revenue,"retail_revenue, revenue, sales_revenue, store_revenue, total_revenue",continuous
+22, retail sales ,online sales,"online_sales, sales_online, e_sales, internet_sales, digital_sales",continuous
+23, retail sales ,store count,"store_count, number_of_stores, total_stores, store_quantity, shop_count",continuous
+24, retail sales ,product demand,"demand, product_demand, demand_level, consumer_demand, market_demand",continuous
+25, political engagement ,voter turnout,"turnout, voter_turnout, election_turnout, voting_rate, participation_rate",continuous
+26, political engagement ,party membership,"party_membership, membership_status, political_affiliation, member_party, affiliation_party",categorical
+27, political engagement ,campaign donations,"donations, campaign_donations, donation_amount, campaign_funds, funds_received",continuous
+28, political engagement ,political rallies attendance,"rally_attendance, political_rallies, attendance_numbers, political_attendance, rallies_attended",continuous
+29, political engagement ,legislation passed,"legislation_passed, bills_passed, laws_enacted, statutes_approved, passed_legislation",continuous
+30, biodiversity ,species count,"species_count, count_species, number_of_species, total_species, biodiversity_count",continuous
+31, biodiversity ,habitat area,"habitat_area, area, habitat_size, conservation_area, ecosystem_area",continuous
+32, biodiversity ,endangered species,"species_status, endangered_species, conservation_status, species_risk, risk_category",categorical
+33, biodiversity ,conservation efforts,"conservation_efforts, efforts, conservation_level, conservation_activities, environmental_efforts",continuous
+34, biodiversity ,invasive species impact,"invasive_impact, species_impact, impact_invasive_species, invasive_species_effect, ecosystem_impact",continuous
+35, financial markets ,stock market indices,"market_indices, stock_indices, indices, stock_market_values, equity_indices",continuous
+36, financial markets ,bond yields,"bond_yield, yield, interest_rate, treasury_yield, fixed_income_yield",continuous
+37, financial markets ,currency exchange rates,"exchange_rate, currency_rate, forex_rate, rate_of_exchange, currency_conversion_rate",continuous
+38, financial markets ,trading volume,"trading_volume, volume_traded, market_volume, daily_volume, transaction_volume",continuous
+39, financial markets ,market capitalization,"market_cap, capitalization, market_value, company_value, total_market_cap",continuous
+40, urban development ,city population,"population, city_population, inhabitants, population_count, resident_number",continuous
+41, urban development ,infrastructure projects,"infrastructure_count, project_count, infra_projects, total_projects, projects_infrastructure",continuous
+42, urban development ,green space,"green_space_area, park_size, green_zone, vegetation_coverage, urban_green_space",continuous
+43, urban development ,urban sprawl,"urban_sprawl, sprawl_index, city_expansion, sprawl_level, expansion_rate",continuous
+44, urban development ,public amenities,"amenities_public, public_amenities, public_facilities, amenities_count, facilities_public",continuous
+45, consumer electronics ,sales volume,"sales_volume, volume, monthly_sales, total_sales, units_sold",continuous
+46, consumer electronics ,market share,"market_share, share, company_market_share, industry_share, sector_market_share",continuous
+47, consumer electronics ,product releases,"release_count, product_releases, num_releases, releases, total_releases",continuous
+48, consumer electronics ,innovation rate,"innovation_rate, rate_of_innovation, innovation_index, innovation_level, innovation_metric",continuous
+49, consumer electronics ,user satisfaction,"user_satisfaction, satisfaction_level, customer_satisfaction, satisfaction_score, user_happiness",continuous
+50, automotive industry ,car sales,"car_sales, sales, vehicle_sales, auto_sales, number_of_cars_sold",continuous
+51, automotive industry ,electric vehicle adoption,"ev_adoption_rate, electric_vehicle_adoption, ev_adoption, vehicle_electrification_rate, adoption_of_evs",continuous
+52, automotive industry ,production volume,"production_volume, volume_produced, total_production, output_volume, production_amount",continuous
+53, automotive industry ,recall incidents,"recall_count, incident_recall, recall_incidents, incidents, recalls",continuous
+54, automotive industry ,market trends,"market_trends, trends, market_movement, economic_trends, trend_analysis",continuous
+55, pharmaceuticals ,drug development,"drug_development_phase, development_stage, drug_progress, pharmaceutical_development, medication_development_stage",categorical
+56, pharmaceuticals ,clinical trial outcomes,"trial_outcomes, clinical_results, trial_results, outcomes, clinical_outcomes",categorical
+57, pharmaceuticals ,FDA approvals,"fda_approvals, approvals, approved_drugs, drug_approvals, fda_approved_count",continuous
+58, pharmaceuticals ,prescription rates,"prescription_rates, rx_rates, medication_prescription_rates, prescription_frequency, prescrip_rate",continuous
+59, pharmaceuticals ,pharmaceutical sales,"pharma_sales, drug_sales, medication_sales, sales_pharmaceutical, pharmaceutical_revenue",continuous
+60, waste management ,recycling rates,"recycling_rate, rate_of_recycling, recycling_percentage, waste_recycling_rate, recycling_ratio",continuous
+61, waste management ,landfill volume,"landfill_volume, volume, waste_volume, dump_capacity, landfill_capacity",continuous
+62, waste management ,waste generation,"waste_generated, generation_waste, waste_amount, total_waste, waste_volume",continuous
+63, waste management ,hazardous waste incidents,"hazardous_incidents, waste_incidents, hazardous_waste_events, incidents_hazardous_waste, number_of_hazardous_incidents",continuous
+64, waste management ,waste reduction initiatives,"waste_reduction, initiatives, reduction_efforts, waste_initiatives, reduction_programs",continuous
+65, food security ,malnutrition rates,"malnutrition_rate, nutrition_deficit, undernourishment_rate, malnourishment_percentage, hunger_rate",continuous
+66, food security ,food availability,"food_availability, availability_food, food_supply, supply_food, food_access",continuous
+67, food security ,agricultural imports and exports,"agri_imports_exports, agricultural_trade_balance, farm_goods_trade, agri_trade_flow, imports_exports_agriculture",continuous
+68, food security ,food price volatility,"price_volatility, food_price_volatility, volatility, market_volatility, price_fluctuation",continuous
+69, food security ,emergency food aid,"food_aid, emergency_aid, aid_amount, emergency_food_support, food_assistance",continuous
+70, cultural participation ,museum visits,"visits, museum_visits, visitor_count, attendance, visitation_numbers",continuous
+71, cultural participation ,book sales,"sales, book_sales, total_sales, units_sold, books_sold",continuous
+72, cultural participation ,theater attendance,"attendance, theater_attendance, audience_count, seats_filled, patrons_present",continuous
+73, cultural participation ,cultural festivals,"festival_count, cultural_festivals, num_cultural_festivals, festival_number, cultural_event_count",continuous
+74, cultural participation ,art classes,"art_class_count, num_art_classes, art_courses, classes_art, total_art_classes",continuous
+75, disaster response ,emergency response time,"response_time, emergency_time, time_to_respond, incident_response_time, emergency_response_duration",continuous
+76, disaster response ,disaster preparedness,"preparedness_level, disaster_preparedness, readiness_score, preparedness_rating, disaster_readiness",continuous
+77, disaster response ,relief fund allocation,"fund_allocation, relief_fund, allocation_amount, relief_allocation, disaster_fund",continuous
+78, disaster response ,recovery speed,"recovery_speed, healing_rate, recuperation_velocity, recovery_rate, speed_of_recovery",continuous
+79, disaster response ,affected population,"affected_population, population_affected, victims, impacted_population, casualty_count",continuous
+80, ocean health ,fish stocks,"fish_stocks, stock_levels, fish_population, marine_stock, aquatic_resources",continuous
+81, ocean health ,coral reef condition,"reef_condition, coral_condition, coral_health, reef_health, coral_reef_status",categorical
+82, ocean health ,ocean acidity,"acidity_level, ocean_acidity, pH_value, water_acidity, sea_acidity",continuous
+83, ocean health ,marine protected areas,"marine_protected_areas, protected_marine_areas, marine_reserves, marine_conservation_zones, protected_areas_marine",continuous
+84, ocean health ,plastic pollution,"plastic_pollution_level, pollution_plastic, plastic_waste, pollution_index_plastic, plastic_contamination",continuous
+85, space exploration ,satellite launches,"launches, satellite_launches, number_of_launches, launch_count, total_launches",continuous
+86, space exploration ,space mission success rate,"success_rate, mission_success, space_mission_rate, mission_rate, space_success",continuous
+87, space exploration ,extraterrestrial discoveries,"discoveries, ET_discoveries, alien_findings, extraterrestrial_count, space_discoveries",continuous
+88, space exploration ,space agency funding,"funding_amount, agency_budget, space_funding, space_agency_funds, budget_allocation",continuous
+89, space exploration ,astronaut hours in space,"hours_in_space, astronaut_hours, space_hours, time_in_space, duration_in_orbit",continuous
+90, child welfare ,child poverty rate,"child_poverty_rate, poverty_rate_children, child_poverty, poverty_child_rate, children_poverty_percentage",continuous
+91, child welfare ,access to education,"education_access, access_education, education_availability, school_access, access_to_schooling",categorical
+92, child welfare ,child abuse cases,"abuse_cases, child_abuse, reported_abuse_cases, abuse_incidents, child_abuse_reports",continuous
+93, child welfare ,foster care numbers,"foster_care_count, foster_numbers, care_population, number_in_foster, foster_population",continuous
+94, child welfare ,adoption rates,"adoption_rates, rate_of_adoption, adoption_percentage, adoption_level, adoption_ratio",continuous
+95, elderly care ,senior living facilities,"senior_facilities, living_facilities, senior_living, facilities_count, elderly_facilities",continuous
+96, elderly care ,elder abuse incidents,"abuse_incidents, elder_abuse_cases, reported_abuse, elder_incidents, abuse_reports",continuous
+97, elderly care ,retirement savings,"retirement_savings, savings_for_retirement, pension_fund, retirement_fund, nest_egg",continuous
+98, elderly care ,healthcare access,"healthcare_access, access_level, medical_access, health_services_availability, care_accessibility",categorical
+99, elderly care ,life satisfaction,"life_satisfaction, satisfaction_level, happiness_index, well_being_score, contentment_rating",continuous
+100, income inequality ,Gini coefficient,"gini_coefficient, gini_index, income_inequality, wealth_distribution, inequality_measure",continuous
+101, income inequality ,poverty rate,"poverty_rate, poverty_level, poverty_percentage, rate_of_poverty, poverty_index",continuous
+102, income inequality ,top 1% income share,"top_one_percent_income, income_share_top_1, top_1_income_share, top_1_percent_share, wealthiest_1_percent_income",continuous
+103, income inequality ,minimum wage levels,"min_wage, minimum_wage, wage_level, base_salary, lowest_wage",continuous
+104, income inequality ,social mobility,"social_mobility, mobility_index, social_mobility_score, mobility_level, socioeconomic_mobility",continuous
+105, digital divide ,internet access disparity,"access_disparity, internet_disparity, connectivity_gap, internet_access_gap, digital_divide",continuous
+106, digital divide ,digital literacy,"digital_literacy_level, literacy_digital, tech_literacy, digital_skill_level, computer_literacy",continuous
+107, digital divide ,device ownership,"device_ownership, ownership_status, has_device, owns_device, device_possession",categorical
+108, digital divide ,online services availability,"service_availability, online_availability, online_services, availability_online, services_online",categorical
+109, digital divide ,rural broadband,"broadband_rural, rural_broadband, internet_rural, rural_internet_access, rural_connectivity",continuous
+110, air travel ,flight frequency,"flight_frequency, frequency, flights_per_period, number_of_flights, flight_count",continuous
+111, air travel ,passenger numbers,"passenger_count, num_passengers, passenger_numbers, total_passengers, passengers",continuous
+112, air travel ,airline profitability,"profitability, airline_profit, net_profit, profit_margin, airline_earnings",continuous
+113, air travel ,airport capacity,"airport_capacity, capacity_airport, max_airport_capacity, airport_size, total_capacity_airport",continuous
+114, air travel ,flight delays,"delay_time, flight_delay, departure_delay, arrival_delay, delay_duration",continuous
+115, marine transportation ,shipping volume,"shipping_volume, volume_shipped, cargo_volume, freight_volume, shipment_quantity",continuous
+116, marine transportation ,port throughput,"throughput, port_throughput, cargo_volume, shipping_volume, annual_throughput",continuous
+117, marine transportation ,fleet size,"fleet_size, number_of_vehicles, vehicle_count, total_fleet, fleet_number",continuous
+118, marine transportation ,piracy incidents,"piracy_incidents, incidents, piracy_count, piracy_events, number_of_piracies",continuous
+119, marine transportation ,shipping lane efficiency,"lane_efficiency, shipping_efficiency, efficiency_rate, shipping_lane_performance, cargo_throughput",continuous
+120, volunteerism ,volunteer rate,"volunteer_rate, rate_of_volunteering, volunteering_rate, participation_rate, community_service_rate",continuous
+121, volunteerism ,hours volunteered,"volunteer_hours, hours_volunteered, service_hours, time_volunteered, community_service_hours",continuous
+122, volunteerism ,nonprofit organizations,"nonprofit_count, organizations_count, nonprofit_organizations, number_of_nonprofits, charity_count",continuous
+123, volunteerism ,community service impact,"service_impact, community_impact, impact_score, community_service_effect, service_effectiveness",continuous
+124, volunteerism ,volunteer satisfaction,"volunteer_satisfaction, satisfaction_level, volunteer_happiness, satisfaction_score, happiness_index",continuous
