@@ -1,0 +1,251 @@
+,field,variable,name,category
+0, Education ,Literacy rate,"literacy_rate, rate_literacy, literacy, education_rate, rate_of_literacy",rate
+1, Education ,Enrollment rate,"enrollment_rate, rate_of_enrollment, enrollment_percentage, enrollment_ratio, admission_rate",continuous
+2, Education ,School drop-out rate,"drop_out_rate, school_drop_out_rate, rate_drop_out, drop_out_percentage, drop_out_ratio",rate
+3, Education ,Teacher/student ratio,"teacher_student_ratio, ratio, education_ratio, student_teacher_ratio, class_ratio",continuous
+4, Education ,Expenditure per student,"expenditure_per_student, student_expenditure, per_student_expenditure, student_cost, cost_per_student",continuous
+9, Employment ,Unemployment rate,"unemployment_rate, rate_unemployment, joblessness_rate, rate_joblessness, unemployment_percentage",rate
+10, Employment ,Employment rate,"employment_rate, job_rate, employment_percentage, rate_of_employment, job_occupancy",rate
+11, Employment ,Labor force participation rate,"labor_participation_rate, participation_rate, labor_force_participation, rate_participation, workforce_participation",rate
+12, Employment ,Wage growth,"wage_growth, growth_rate, wage_increase, wage_trend, salary_growth",continuous
+13, Employment ,Underemployment rate,"underemployment_rate, rate_underemployment, underemployment_percentage, underemployment_ratio, underemployment_index",rate
+16, Health ,Life expectancy,"life_expectancy, expectancy, lifespan, life_duration, longevity",continuous
+17, Health ,Infant mortality rate,"infant_mortality_rate, mortality_rate_infant, infant_mortality, rate_infant_mortality, infant_rate",rate
+18, Health ,Disease prevalence,"disease_prevalence, prevalence, disease_rate, rate_of_disease, disease_occurrence",continuous
+19, Health ,Vaccination coverage,"vaccination_coverage, coverage, vaccine_coverage, immunization_coverage, vaccination_rate",rate
+20, Health ,Maternal mortality rate,"maternal_mortality_rate, mortality_rate, maternal_mortality, rate_mortality, rate",continuous
+21, Crime ,Crime rate,"crime_rate, rate_of_crime, crime_index, crime_frequency, criminal_activity",rate
+22, Crime ,Violent crime rate,"crime_rate, voilen_crime_rate, crime_rate_violent",rate
+23, Crime ,Property crime rate,"property_crime_rate, crime_rate, property_crime, rate_property_crime, crime_rate_property",rate
+24, Crime ,Recidivism rate,"recidivism_rate, rate_recidivism, recidivism, rate_of_recidivism, recidivism_percentage",continuous
+25, Crime ,Police clearance rate,"police_clearance_rate, clearance_rate, rate_police_clearance, police_rate, clearance_rate_police",rate
+26, Transportation ,Average commute time,"commute, time, commute_time, average_commute_time",continuous
+27, Transportation ,Public transport ridership,"transport_ridership, public_transport_ridership, ridership, public_transport_usage, transport_usage",continuous
+28, Transportation ,Road congestion index,"congestion_index, road_congestion, congestion, traffic_index, road_traffic_index",continuous
+29, Transportation ,Road traffic accidents,"traffic_accidents, road_accidents, accidents_on_road, road_traffic_incidents, collision_rate",continuous
+30, Transportation ,Airport passenger traffic,"passenger_traffic, airport_traffic, traffic_passenger, pass_traffic, air_traffic",continuous
+31, Energy ,Renewable energy consumption,"consumption, energy_consumption, renewable_energy_consumption",continuous
+32, Energy ,Energy intensity,"energy_intensity, intensity, energy_consumption, consumption_rate, energy_usage",rate
+33, Energy ,CO2 emissions,"emissions_CO2, CO2_emissions, carbon_emissions, CO2_output, CO2_pollution",continuous
+34, Energy ,Energy subsidies,"energy_subsidies, subsidies, energy_aid, financial_support, subsidy_programs",continuous
+35, Energy ,Access to electricity,"access_electricity, electricity_access, electrification, power_access, energy_access",categorical
+36, Agriculture ,Crop yield,"crop_yield, yield, crop_production, production, crop_output",continuous
+37, Agriculture ,Livestock production,"livestock_production, production_livestock, livestock_produce, animal_production, production_animals",continuous
+38, Agriculture ,Irrigation coverage,"coverage_irrigation, irrigation_coverage, coverage, irrigation, coverage_percentage",continuous
+39, Agriculture ,Food security index,"food_security_index, index_food_security, security_index_food, food_security_score, food_security_rating",continuous
+40, Agriculture ,Agricultural land use,"agricultural_land_use, land_use, agricultural_use, use_agricultural, land_type",categorical
+41, Environment ,Air quality index,"air_quality_index, aqi, quality_index, air_index, air_quality",continuous
+42, Environment ,Water quality index,"water_quality_index, quality_index_water, water_quality, water_index, index_water",continuous
+43, Environment ,Deforestation rate,"deforestation_rate, rate_of_deforestation, deforestation_percentage, deforestation_index, deforestation_trend",rate
+44, Environment ,Waste generation rate,"waste_rate, generation_rate, waste_generation_rate, rate_of_waste_generation, waste_generation_rate_per_day",rate
+45, Environment ,Endangered species count,"species_count, endangered_count, count_species, count_endangered, endangered_species_count",continuous
+46, Poverty ,Poverty rate,"poverty_rate, rate_poverty, poverty_percentage, poverty_index, poverty_ratio",rate
+47, Poverty ,Gini coefficient,"gini_coefficient, coefficient_gini, gini_index, inequality_index, income_inequality",continuous
+48, Poverty ,Multidimensional poverty index,"proverty, proverty_index, index",continuous
+49, Poverty ,Social assistance coverage,"social_assistance_coverage, assistance_coverage, coverage_social, social_coverage, social_assistance",continuous
+50, Poverty ,Access to basic services,"service, serveice_available, basic_services",continuous
+51, Technology ,Internet penetration rate,"internet_penetration_rate, penetration_rate, internet_rate, penetration, internet_penetration",rate
+52, Technology ,Mobile phone subscriptions,"mobile_subscriptions, phone_subscriptions, mobile_phone_subscriptions, subscriptions, mobile_users",continuous
+53, Technology ,Research and development expenditure,"R&D_expenditure, research_dev_expenditure, R&D_spending, R&D_cost, research_expenditure",continuous
+54, Technology ,Patent applications,"patent_applications, applications, patent_apps, patent_requests, application_count",continuous
+55, Technology ,Technological readiness index,"tech_readiness_index, readiness_index, technological_index, tech_readiness, tech_index",continuous
+56, Housing ,Homeownership rate,"homeownership_rate, rate_homeownership, ownership_rate, rate_home, rate_ownership",rate
+57, Housing ,Rental vacancy rate,"rental_vacancy_rate, vacancy_rate, rental_vacancy, vacancy",rate
+58, Housing ,Housing affordability index,"housing_affordability_index, affordability_index, housing_index, index_affordability, housing_affordability",continuous
+59, Housing ,Homelessness rate,"homelessness_rate, rate_homelessness, rate_of_homelessness, homelessness_percentage, homeless_rate",continuous
+60, Housing ,Housing quality index,"housing_quality_index, quality_index_housing, housing_quality, housing_quality_score, housing_index",continuous
+61, Demographics ,Population density,"population_density, density, density_of_population, population_density_rate, population_density_index",continuous
+62, Demographics ,Age distribution,"age_distribution, distribution, age_dist, dist_age, age_group",categorical
+63, Demographics ,Gender ratio,"gender_ratio, ratio_gender, gender_ratio_value, gender_distribution, gender_ratio_percentage",continuous
+64, Demographics ,Migration rate,"migration_rate, rate_of_migration, migration_rate_percentage, migration_speed, migration_percentage",rate
+65, Demographics ,Dependency ratio,"dependency_ratio, ratio_dependency, dep_ratio, dependency_ratio_rate, ratio_depend",continuous
+69, Tourism ,Tourist arrivals,"tourist_arrivals, arrivals, tourist_visitors, visitor_arrivals, tourist_traffic",continuous
+70, Tourism ,Hotel occupancy rate,"occupancy_rate, hotel_occupancy_rate, rate_of_occupancy, occupancy_percentage, hotel_occupancy_percentage",continuous
+71, Tourism ,Tourism revenue,"tourism_revenue, revenue_tourism, tourism_income, income_tourism, visitor_spending",continuous
+72, Tourism ,Cultural heritage sites,"heritage_sites, cultural_sites, historical_sites, cultural_heritage, heritage_locations",categorical
+73, Tourism ,Ecotourism sites,"ecotourism_sites, sites_ecotourism, eco_sites, tourism_sites, nature_sites",categorical
+74, Climate ,Average temperature,"avg_temperature, temperature_avg, average_temp, temp_average, temp_avg",continuous
+75, Climate ,Rainfall amount,"rainfall_amount, amount_of_rainfall, rainfall, precipitation_level, rain_depth",continuous
+76, Climate ,Climate change vulnerability index,"climate_vulnerability_index, vulnerability_index, climate_index, vulnerability, climate_change_vulnerability",continuous
+77, Climate ,Drought severity index,"drought_severity_index, severity_index, drought_index, drought_severity, severity",continuous
+78, Climate ,Sea level rise,"sea_level_rise, rise_level, level_rise, sea_rise, ocean_rise",continuous
+83, Politics ,Voter turnout,"turnout, voter_turnout, voting_turnout, voter_participation, voter_count",continuous
+84, Politics ,Political party membership,"party_membership, political_party_membership, party_affiliation, membership_political_party, political_party_affiliation",categorical
+85, Politics ,Corruption perception index,"corruption_perception, perception_index, corruption_index, corruption_perception_index, cpi",continuous
+86, Politics ,Freedom index,"freedom_index, index_of_freedom, freedom_rating, freedom_scale, freedom_score",continuous
+87, Politics ,Human rights violations,"rights_violations, human_rights, violations, human_rights_abuse, human_rights_violations",categorical
+88, Gender Equality ,Gender wage gap,"wage_gap, gender_pay_gap, wage_inequality, pay_gap, gender_earnings_gap",continuous
+89, Gender Equality ,Female labor force participation rate,"participation_rate, labor_force_participation_rate, female_participation_rate, female_labor_participation_rate, female_labor_rate",rate
+90, Gender Equality ,Gender-based violence prevalence,"violence_prevalence, gender_violence_prevalence, gender_violence, violence_rate, violence_index",continuous
+91, Gender Equality ,Women in leadership positions,"leadership_positions, women_leadership, women_positions",continuous
+92, Gender Equality ,Educational gender parity,"education, eductation_parity, education_level",continuous
+93, Media ,Press freedom index,"press_freedom_index, freedom_index, index_press_freedom, press_index, freedom_index_press",continuous
+94, Media ,Internet censorship index,"censorship_index, internet_censorship_index, index_censorship, censorship_index_internet, internet_censorship",continuous
+95, Media ,Media ownership concentration,"concentration, ownership_concentration, media, media_ownership",continuous
+96, Media ,News consumption habits,"habits, consumption_habits, news_habit, news_consumption",continuous
+97, Media ,Social media usage,"social_media_usage, usage, social_media_activity, activity, media_usage",continuous
+98, Water Resources ,Water availability per capita,"available, availiability, ppl_available",continuous
+99, Water Resources ,Water withdrawal per sector,"water_withdrawal, sector_withdrawal, withdrawal_per_sector, water_usage, sector_usage",continuous
+100, Water Resources ,Water stress index,"stress_level, stress_index, level_index, stress_index_level, level_stress",continuous
+101, Water Resources ,Water quality index,"water_quality_index, quality_index_water, water_quality, index_water, water_quality_score",continuous
+102, Water Resources ,Access to clean drinking water,"clean_water_access, drinking_water_access, water_access, access_to_water, clean_drinking_water_access",categorical
+103, Social Media ,Number of social media users,"social_media_users, users_count, social_users, media_users, user_count",continuous
+104, Social Media ,Engagement rate,"engagement_rate, rate_engagement, engagement_percentage, rate_of_engagement, engagement_index",rate
+105, Social Media ,User demographics,"demographic, user_demographics, user_profile, demographics_info, user_info",categorical
+106, Social Media ,Social media advertising spend,"social_media_advertising_spend, advertising_spend, social_media_spend, spend, media_advertising",continuous
+107, Social Media ,Influencer reach,"influencer_reach, reach, social_reach, online_reach, audience_reach",continuous
+110, Humanitarian Aid ,Humanitarian funding,"funding, humanitarian_funding, aid_funding, emergency_funding, relief_funding",continuous
+111, Humanitarian Aid ,Emergency response time,"emergency_response_time, response_time, emergency_time, time_elapsed, time_taken",rate
+112, Humanitarian Aid ,Refugees and internally displaced people count,"refugee_count, displaced_count, refugee_and_displaced_count, population_displacement_count, refugee_and_IDP_count",continuous
+113, Humanitarian Aid ,Disaster preparedness index,"disaster_preparedness_index, preparedness_index, disaster_index, index_preparedness, disaster_prep_index",continuous
+114, Humanitarian Aid ,Humanitarian needs assessment,"needs_assessment, humanitarian_needs, assessment, humanitarian_assessment, needs",categorical
+115, Urbanization ,Urban population growth rate,"population_growth_rate, rate, growth_rate, urban_growth_rate",rate
+116, Urbanization ,Urban slum population,"urban_population, slum_population, urban_slum_population, population_urban_slum, slum_populace",continuous
+117, Urbanization ,Urban infrastructure index,"urban_infrastructure_index, infrastructure_index, urban_index, index_urban, urban_infrastructure_score",continuous
+118, Urbanization ,Urban heat island effect,"heat_island_efect, island_effect, heat_effect, effect",continuous
+119, Urbanization ,Urban sprawl index,"sprawl_index, urban_sprawl, urbanization_index, urbanization_rate, urban_expansion_index",continuous
+120, Sports ,Sports participation rate,"participation_rate, sport_participation, sports_rate",rate
+121, Sports ,Sports event attendance,"attendance, event_attendance, sports_attendance, event_participation, event_presence",continuous
+122, Sports ,Professional athlete salaries,"athlete_salaries, professional_salaries, athlete_earnings, professional_earnings, salary_range",continuous
+123, Sports ,Sponsorship revenue,"sponsorship_revenue, revenue_sponsorship, sponsorship_funds, funds_sponsorship, revenue_from_sponsorship",continuous
+124, Sports ,Olympic medal count,"medal_count, olympic_count, count, medal_tally, olympic_medal_count",continuous
+125, Mental Health ,Depression prevalence,"depression_prevalence, prevalence_depression, depression_rate, rate_depression, depression_percentage",continuous
+126, Mental Health ,Suicide rate,"suicide_rate, rate_suicide, self_harm_rate, rate_of_suicide, suicide_occurrence",rate
+127, Mental Health ,Mental health treatment coverage,"mental_health_coverage, coverage, treatment_coverage, health_coverage, mental_treatment_coverage",categorical
+128, Mental Health ,Stress level index,"stress_level, stress_index, level_index, stress_index_level, level_stress",continuous
+129, Mental Health ,Mental well-being index,"mental_wellbeing_index, wellbeing_index, mental_health_index, mental_wellness_index, mental_wellbeing_score",continuous
+130, Wildlife Conservation ,Protected area coverage,"area_coverage, protected_area, protected_coverage, coverage_area, area_protected",continuous
+131, Wildlife Conservation ,Species extinction rate,"species_extinction_rate, extinction_rate, species_rate, rate_of_extinction, species_extinction_speed",rate
+132, Wildlife Conservation ,Poaching incidents,"poaching_incidents, incidents, poaching_events, poaching_cases, wildlife_poaching",continuous
+133, Wildlife Conservation ,Wildlife trafficking,"wildlife_trafficking, trafficking, illegal_trade, wildlife_trade, poaching",categorical
+134, Wildlife Conservation ,Conservation funding,"conservation_funding, funding, funding_conservation, conservation_fund, fund",continuous
+135, Internet of Things ,Internet of Things devices installed,"devices_installed, IoT_devices_installed, installed_count, IoT_installation, device_count",continuous
+136, Internet of Things ,Data privacy index,"data_privacy_index, privacy_index, data_privacy, privacy, index_data_privacy",continuous
+137, Internet of Things ,Smart city initiatives,"smart_city_initiatives, initiatives_city, city_smart_initiatives, smart_initiatives, city_initiatives",categorical
+138, Internet of Things ,IoT security breaches,"security_breaches, breaches, IoT_security_breaches, security, IoT_breaches",continuous
+139, Internet of Things ,IoT market size,"market_size, size_IoT, IoT_size, market_IoT, size_market_IoT",continuous
+140, Social Inequality ,Wealth inequality index,"wealth_inequality_index, wealth, wealth_index",continuous
+141, Social Inequality ,Income mobility rate,"income_mobility_rate, mobility_rate, income_mobility, rate, mobility",continuous
+142, Social Inequality ,Social mobility index,"social_mobility, mobility_index, index_social, mobility_rate, social_index",continuous
+143, Social Inequality ,Access to social protection,"social_protection_access, access_to_social_protection, protection_access, social_access, SP_access",categorical
+144, Social Inequality ,Discrimination prevalence,"prevalence, discrimination_prevalence, prevalence_discrimination, discrimination_rate, discrimination_percentage",continuous
+145, Disaster Management ,Disaster risk index,"risk_index, disaster_risk, risk_indicator, risk_level, disaster_index",continuous
+146, Disaster Management ,Emergency response capacity,"emergency_capacity, response_capacity, capacity_emergency, capacity_response, emergency_response",continuous
+147, Disaster Management ,Early warning system coverage,"warning_coverage, early_warning_coverage, coverage, system_coverage, early_coverage",rate
+148, Disaster Management ,Disaster recovery time,"recovery_time, disaster_time, time_recovery, time_disaster, time_to_recover",continuous
+149, Disaster Management ,Relief and recovery funding,"funding_relief, recovery_funding, relief_funding, funding_recovery, funding_relief_recovery",continuous
+150, Arts and Culture ,Art participation rate,"art_participation_rate, participation_rate, rate_of_participation, art_rate, rate",rate
+151, Arts and Culture ,Museum attendance,"attendance, museum_attendance, visitor_count, museum_visitors, visitation",continuous
+152, Arts and Culture ,Cultural events per capita,"cultural_events_per_capita, events_per_capita, cultural_events, per_capita_events, event_density",continuous
+153, Arts and Culture ,Cultural diversity index,"cultural_diversity_index, diversity_index, cultural_index, diversity, cultural_diversity",continuous
+154, Arts and Culture ,Creative economy revenue,"revenue, creative_economy_revenue, economy_revenue",continuous
+155, Sports Performance ,Average score/record,"average_score, score_avg, record_average, avg_record, score_record",continuous
+156, Sports Performance ,Winning percentage,"winning_percentage, percentage_of_wins, win_percentage, win_rate, success_rate",rate
+157, Sports Performance ,Athlete performance index,"performance_index, athlete_performance, performance, index, athlete_performance_index",continuous
+158, Sports Performance ,Training duration,"training_duration, duration_training, training_length, length_duration, duration",continuous
+159, Sports Performance ,Injury rate,"injury_rate, rate_of_injury, injury_frequency, injury_occurrence, injury_ratio",rate
+160, Cybersecurity ,Cybercrime rate,"cybercrime_rate, rate_cybercrime, crime_rate_cyber, rate_crime_cyber, cyber_rate",rate
+161, Cybersecurity ,Data breach incidents,"data_breach_incidents, breach_incidents, data_breach, incidents, security_breach",continuous
+162, Cybersecurity ,Cybersecurity readiness index,"cybersecurity_readiness_index, readiness_index, cybersecurity_index, cybersecurity_readiness, readiness_score",continuous
+163, Cybersecurity ,Cybersecurity investment,"investment, cybersecurity_investment, security_investment, cyber_investment, investment_cybersecurity",continuous
+164, Cybersecurity ,Cybersecurity job market,"job_market_security, cybersecurity_job_market, security_job_market, job_market_cybersecurity, market_cybersecurity",categorical
+165, Aging Population ,Elderly dependency ratio,"elderly_dependency_ratio, dependency_ratio, elderly_ratio, dependency_index, ratio",continuous
+166, Aging Population ,Aging index,"aging_index, index_aging, age_index, aging, index",continuous
+167, Aging Population ,Geriatric healthcare access,"healthcare_access_geriatric, geriatric_healthcare, access_to_geriatric_care, geriatric_care_access, healthcare_geriatric",continuous
+168, Aging Population ,Retirement age,"retirement_age, age_of_retirement, retirement_age_limit, retirement_age_range, retirement_age_criteria",continuous
+169, Aging Population ,Centenarians count,"centenarians_count, count_centenarians, number_of_centenarians, centenarians, centenarians_population",continuous
+170, Child Protection ,Child labor prevalence,"labor_prevalence, child_labor, child_labor_rate, labor_rate, prevalence",continuous
+171, Child Protection ,Child abuse cases,"abuse_cases, child_abuse_cases, cases, child_abuse_statistics, child_abuse_reports",categorical
+172, Child Protection ,Child mortality rate,"child_mortality_rate, mortality_rate_child, child_rate_mortality, rate_child_mortality, child_mortality",rate
+173, Child Protection ,Child protection services coverage,"protection, protection_services, protection_services_coverage",continuous
+174, Child Protection ,Early childhood development index,"development_index, childhood_index, early_development, early_childhood, index_early_childhood",continuous
+175, Education Quality ,PISA test scores,"pisa_scores, test_scores, pisa_test_scores, scores, educational_scores",continuous
+176, Education Quality ,School completion rate,"completion_rate, school_completion, rate_completion, school_success, graduation_rate",rate
+177, Education Quality ,Teacher qualifications,"teacher_qualifications, qualifications, teaching_qualifications, educator_qualifications, instructor_qualifications",categorical
+178, Education Quality ,Education expenditure per student,"education_expenditure_per_student, expenditure_per_student, education_spending, per_student_expenditure, student_education_cost",continuous
+179, Education Quality ,Education outcomes gap,"education_outcomes_gap, outcomes_gap, education_gap, gap_of_education_outcomes, educational_disparity",continuous
+180, Food and Agriculture Security ,Food production index,"food_production_index, production_index, food_production, index_production, food_index",continuous
+181, Food and Agriculture Security ,Food loss and waste,"loss, waste, food_loss, food_waste",continuous
+182, Food and Agriculture Security ,Malnutrition rate,"malnutrition_rate, malnourishment_rate, nutritional_deficiency_rate, undernutrition_rate, malnutrition_percentage",rate
+183, Food and Agriculture Security ,Agricultural subsidies,"subsidies, agri_subsidies, agricultural_support, farm_subsidies, subsidy_programs",continuous
+184, Food and Agriculture Security ,Food safety index,"food_safety_index, safety_index, food_safety_rating, safety_rating, food_safety_score",continuous
+185, Disaster Risk Reduction ,Building code compliance rate,"compliance_rate, building_compliance_rate, building_code",rate
+186, Disaster Risk Reduction ,Disaster risk reduction budget,"budget, risk_reduction_budget, disaster_budget, reduction_budget, disaster_risk_budget",continuous
+187, Disaster Risk Reduction ,Community resilience index,"resilience_index, community_resilience, c_resilience_index, community_index, index_community",continuous
+188, Disaster Risk Reduction ,Disaster preparedness campaigns,"preparedness_campaigns, disaster_campaigns, campaign_preparedness, disaster_preparedness, campaigns",continuous
+189, Disaster Risk Reduction ,Risk assessment coverage,"risk_coverage, assessment_coverage, coverage_risk, coverage_assessment, risk_assessment_coverage",continuous
+190, Social Entrepreneurship ,Social enterprise count,"enterprise_count, social_enterprise_count, count, social_count, enterprise_count_social",continuous
+191, Social Entrepreneurship ,Social impact investment,"social_impact_investment, investment_social_impact, impact_investment, social_investment, investment_with_social_impact",continuous
+192, Social Entrepreneurship ,Social entrepreneurship ecosystem index,"social_entrepreneurship_index, entrepreneurship_ecosystem_index, social_ecosystem_index, startup_index, ecosystem_index",continuous
+193, Social Entrepreneurship ,Social innovation rate,"social_innovation_rate, innovation_rate, rate_social_innovation, social_innovation_index, innovation_index",rate
+194, Social Entrepreneurship ,Social entrepreneurship policy,"entrepreneurship_policy, social_entrepreneurship, policy_social_entrepreneurship, social_policy, policy_entrepreneurship",continuous
+195, Retail ,Retail sales growth rate,"retail_sales_growth_rate, sales_growth_rate, growth_rate_sales, retail_growth_rate, sales_growth",rate
+196, Retail ,E-commerce penetration rate,"e_commerce_rate, penetration_rate, e_commerce_penetration, e_commerce_percentage, penetration_percentage",rate
+197, Retail ,Retail density,"retail_density, density, retail_density_level, retail_density_rate, density_of_retail",continuous
+198, Retail ,Consumer confidence index,"confidence_index, consumer_confidence, consumer_index, confidence, consumer_confidence_index",continuous
+199, Retail ,Retail employment,"retail_employment, employment_retail, retail_jobs, jobs_retail, employment_in_retail",continuous
+200, Financial Inclusion ,Financial literacy rate,"financial_literacy_rate, literacy_rate, financial_literacy, rate_financial_literacy, literacy_rate_financial",rate
+201, Financial Inclusion ,Access to banking services,"banking_access, access_to_banking, banking_service_access, banking_service, service_access",categorical
+202, Financial Inclusion ,Microfinance coverage,"microfinance_coverage, coverage, mfi_coverage, microfinance, coverage_microfinance",continuous
+203, Financial Inclusion ,Financial inclusion index,"financial_inclusion_index, inclusion_index, financial_inclusion, inclusion, index",continuous
+204, Financial Inclusion ,Mobile banking usage,"mobile_banking_usage, banking_usage, mobile_banking_activity, usage, mobile_banking_frequency",continuous
+205, Artificial Intelligence ,AI research publications,"ai_research_publications, research_publications, ai_publications, ai_research, publications",continuous
+206, Artificial Intelligence ,AI startup funding,"funding, startup_funding, AI_startup_funding, funding_amount, investment_amount",continuous
+207, Artificial Intelligence ,AI adoption rate,"ai_adoption_rate, adoption_rate, rate_ai_adoption, adoption_rate_ai, ai_rate",rate
+208, Artificial Intelligence ,AI job market,"ai_job_market, job_market_ai, AI_jobs, market_AI, AI_career",categorical
+209, Artificial Intelligence ,AI ethics index,"ai_ethics_index, ethics_index_ai, ai_index, ethics_ai, ai_ethics",continuous
+210, Migration ,Emigration rate,"emigration_rate, rate_emigration, emigration_percentage, emigration_ratio, migration_outflow_rate",rate
+211, Migration ,Immigration rate,"immigration_rate, rate_of_immigration, migration_rate, immigration_percentage, immigration_ratio",rate
+212, Migration ,Remittance inflow,"remittance_inflow, inflow, remittance_flow, money_inflow, remittance_income",continuous
+213, Migration ,Refugee integration index,"integration_index, refugee_index, refugee_integration, integration_score, refugee_integrated",continuous
+214, Migration ,Brain drain rate,"brain_drain_rate, rate_brain_drain, brain_drain, drain_rate, rate_brain",rate
+215, Fashion and Apparel ,Fashion industry revenue,"fashion_revenue, industry_revenue, fashion_industry_revenue, revenue_fashion, revenue_industry",continuous
+216, Fashion and Apparel ,Fashion e-commerce market size,"fashion_market_size, e-commerce_market_size, market_size_fashion, fashion_e-commerce_size, size_market_fashion",continuous
+217, Fashion and Apparel ,Fast fashion sustainability index,"sustainability, sustanability_index, index, fast_fashion, fast_fashion_sustanability",continuous
+218, Fashion and Apparel ,Ethical fashion practices,"ethical_practices, fashion_ethics, ethical_fashion, fashion_standards, sustainable_fashion",categorical
+219, Fashion and Apparel ,Fashion designer diversity,"diversity_fashion_designer, fashion_designer_diversity, designer_diversity, fashion_diversity, diversity_designer",categorical
+220, Internet Usage ,Internet penetration rate,"penetration_rate, rate, internet_penetration",rate
+221, Internet Usage ,Broadband speed,"broadband_speed, speed, internet_speed, connection_speed, download_speed",continuous
+222, Internet Usage ,E-government services availability,"e_service_availability, government_services_availability, egov_availability, service_availability, e_services_available",categorical
+223, Internet Usage ,Internet censorship index,"censorship_index, internet_censorship, censorship_level, censorship_score, censorship_rank",continuous
+224, Internet Usage ,Online shopping habits,"shopping_habits, online_shopping_habits, shopping_behavior, online_behavior, purchase_pattern",categorical
+225, Marine Conservation ,Marine protected area coverage,"marine_coverage, protected_area_coverage, coverage_marine, marine_area_coverage, area_coverage",continuous
+226, Marine Conservation ,Coral reef health index,"coral_reef, health_index, reef_index, coral_index",continuous
+227, Marine Conservation ,Overfishing rate,"overfishing_rate, rate_of_overfishing, fishing_rate, rate_fishing, overfishing_percentage",rate
+228, Marine Conservation ,Plastic pollution index,"pollution_index, plastic_pollution_index, index_plastic_pollution, plastic_index, plastic_pollution",continuous
+229, Marine Conservation ,Marine conservation funding,"marine_funding, conservation_funding, funding_marine, funding_conservation, marine_conservation_funding",continuous
+230, Economic Inequality ,Income inequality index,"income_inequality_index, inequality_index, income_inequality, income_index",continuous
+231, Economic Inequality ,Wealth concentration index,"wealth_concentration_index, concentration_index, wealth_index, wealth_concentration, concentration",continuous
+232, Economic Inequality ,Wealth-to-income ratio,"wealth_income_ratio, income_wealth_ratio, wealth_to_income, i_to_w_ratio, w_i_ratio",continuous
+233, Economic Inequality ,Poverty gap index,"poverty_gap_index, gap_index, poverty_index, gap_poverty, poverty_gap",continuous
+234, Economic Inequality ,Economic mobility rate,"economic_mobility_rate, mobility_rate, economic_mobility, rate, mobility",rate
+235, Workplace Diversity ,Gender diversity index,"diversity_index, gender_diversity, diversity_index_gender, gender_index, index_gender",continuous
+236, Workplace Diversity ,Ethnic diversity index,"ethnic_diversity, ethnic_index, ethnic_diversity_index",continuous
+237, Workplace Diversity ,LGBTQ+ inclusion index,"inclusion_index, LGBTQ_index, LGBTQ_inclusion, index_inclusion, diversity_index",continuous
+238, Workplace Diversity ,Disability inclusion index,"disability_inclusion_index, inclusion_index, disability_index, inclusion_score, disability_score",continuous
+239, Workplace Diversity ,Age diversity index,"age_diversity_index, diversity_index, age_index, age_diversity, diversity",continuous
+240, Air Quality ,Particulate matter concentration,"particulate_concentration, concentration_pm, pm_concentration, particulate_matter_concentration, matter_concentration",continuous
+241, Air Quality ,Air quality index,"air_quality_index, index_quality, AQI, air_quality_rating, air_index",continuous
+242, Air Quality ,Ozone layer depletion rate,"ozone_depletion_rate, depletion_rate, ozone_layer_depletion, depletion_ozone_rate, ozone_rate",rate
+243, Air Quality ,Indoor air pollution index,"indoor_air_quality_index, indoor_air_pollution_index, IAQ_index, IAQ, pollution_index",continuous
+244, Air Quality ,Pollution-related health issues,"pollution_health_issues, health_issues, pollution_health_problems, pollution_issues, environmental_health",categorical
+249, Renewable Energy ,Solar energy capacity,"energy_capacity, capacity, solar_energy_capacity, solar_capacity, energy_storage",continuous
+250, Renewable Energy ,Wind energy capacity,"wind_energy_capacity, capacity_wind, energy_capacity_wind, wind_capacity, wind_energy",continuous
+251, Renewable Energy ,Hydropower capacity,"hydropower_capacity, capacity_hydropower, hydro_capacity, hydropower, capacity",continuous
+252, Renewable Energy ,Bioenergy production,"bioenergy_production, production_bioenergy, energy_production, production_energy, bio_production",continuous
+253, Renewable Energy ,Geothermal energy capacity,"geothermal_energy, geothermal_capacity, geothermal_energy_capacity",continuous
+254, Artificial Intelligence Ethics ,Bias detection index,"bias_detection_index, detection_index, bias_index, bias_detection, detection_bias",continuous
+255, Artificial Intelligence Ethics ,AI decision transparency index,"decision_transparency_index, transparency_index, AI_transparency_index, decision_index, AI_decision_transparency",continuous
+256, Artificial Intelligence Ethics ,AI accountability framework,"framework, accountability_framework, AI_framework, accountability_AI, AI_accountability",categorical
+257, Artificial Intelligence Ethics ,AI ethical training,"ethical_training, AI_ethics_training, training_ethics, AI_training_ethics, ethical_training_AI",categorical
+258, Artificial Intelligence Ethics ,AI privacy protection,"ai_privacy_protection, privacy_protection_ai, ai_privacy, protection_ai, ai_privacy_security",categorical
+259, Social Innovation ,Social impact measurement index,"social_impact_index, measurement_index, impact_index, social_measurement, social_impact",continuous
+260, Social Innovation ,Social innovation funding,"innovation_funding, social_innovation, funding_social, social_funding, innovation_funding_social",continuous
+261, Social Innovation ,Social entrepreneurship policy,"social_entrepreneurship_policy, entrepreneurship_policy, social_policy, policy, social_enterprise_policy",categorical
+262, Social Innovation ,Collaborative governance index,"governance_index, collaborative_index, collaboration_governance, governance_collaborative, collaborative_governance",continuous
+263, Social Innovation ,Co-creation rate,"co_creation_rate, rate_of_co_creation, collaboration_rate, co_creation_percentage, co_creation_frequency",rate
+264, Poverty Alleviation ,Microfinance loans disbursed,"loans_disbursed, microfinance_loans, disbursed_loans, microfinance_disbursed, loan_disbursement",continuous
+265, Poverty Alleviation ,Self-help group formation rate,"formation_rate, self_help_rate, group_formation_rate, formation_rate_self_help, rate_of_formation",rate
+266, Poverty Alleviation ,Livelihoods created,"livelihoods_created, created_livelihoods, job_creation, employment_opportunities, livelihood_generation",continuous
+267, Poverty Alleviation ,Conditional cash transfer beneficiaries,"beneficiaries, cash_transfer_beneficiaries, conditional_beneficiaries, CCT_beneficiaries, transfer_beneficiaries",categorical
+268, Poverty Alleviation ,Rural poverty rate,"rural_poverty_rate, poverty_rate_rural, rate_rural_poverty, rural_poverty_percentage, rural_pov_rate",rate
