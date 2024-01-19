@@ -1,7 +1,0 @@
-,dataset,treatment,treatment_name,outcome,outcome_name,condition,condition_name,condition_value
-0,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07
-1,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57
-2,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73
-3,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72
-4,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69
-5,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49

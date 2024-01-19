@@ -1,7 +1,0 @@
-,dataset,treatment,treatment_name,outcome,outcome_name
-0,housing_market.csv,rent prices,rental_cost,mortgage rates,mortgage_rate
-1,political_engagement.csv,party membership,member_party,legislation passed,bills_passed
-2,public_health.csv,life expectancy,,obesity rates,obesity_index
-3,retail_sales.csv,retail revenue,,store count,
-4,consumer_electronics.csv,user satisfaction,satisfaction_score,sales volume,volume
-5,political_engagement.csv,voter turnout,,legislation passed,
