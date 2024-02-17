@@ -1,0 +1,1201 @@
+,dataset,treatment,treatment_name,outcome,outcome_name,condition,condition_name,condition_value,prompt,input,output
+0,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: housing_market.csv
+- Treatment variable: median home price (home_price)
+- Outcome variable: mortgage rates (home_loan_rate)
+- Condition variable: vacancy rates
+- Condition value: 0.07 (empty_units_rate=0.07)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Considering the patient's consistent exercise frequency of 2 (exercise=2), what specific insights from the diabetes.csv dataset can guide me in determining the right insulin dose (Dose) for optimizing their monitored blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- Given that our community resilience is currently at 0.07, does the DRR.csv data suggest that adopting the disaster preparedness plan would significantly boost our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Looking at the housing_market.csv data, when the vacancy rate is at 0.07 (empty_units_rate=0.07), what should be the ideal median home price (home_price) to aim for that could influence the mortgage rates (home_loan_rate) favorably?","{'causal_problem': ['CPL', None], 'dataset': ['housing_market.csv'], 'treatment': ['home_price'], 'response': ['home_loan_rate'], 'condition': [('empty_units_rate', 0.07)]}"
+1,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: housing_market.csv
+- Treatment variable: median home price (home_price)
+- Outcome variable: mortgage rates (home_loan_rate)
+- Condition variable: vacancy rates
+- Condition value: 0.07 (empty_units_rate=0.07)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Considering the patient's consistent exercise frequency of 2 (exercise=2), what specific insights from the diabetes.csv dataset can guide me in determining the right insulin dose (Dose) for optimizing their monitored blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- Given that our community resilience is currently at 0.07, does the DRR.csv data suggest that adopting the disaster preparedness plan would significantly boost our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," With the current vacancy rates sitting at 0.07 (empty_units_rate=0.07) in the housing_market.csv dataset, what median home price (home_price) might we consider to potentially affect mortgage rates (home_loan_rate) in a positive manner?","{'causal_problem': ['CPL', None], 'dataset': ['housing_market.csv'], 'treatment': ['home_price'], 'response': ['home_loan_rate'], 'condition': [('empty_units_rate', 0.07)]}"
+2,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: housing_market.csv
+- Treatment variable: median home price (home_price)
+- Outcome variable: mortgage rates (home_loan_rate)
+- Condition variable: vacancy rates
+- Condition value: 0.07 (empty_units_rate=0.07)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Considering the patient's consistent exercise frequency of 2 (exercise=2), what specific insights from the diabetes.csv dataset can guide me in determining the right insulin dose (Dose) for optimizing their monitored blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- Given that our community resilience is currently at 0.07, does the DRR.csv data suggest that adopting the disaster preparedness plan would significantly boost our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," In light of the housing_market.csv, what median home price (home_price) adjustment would be most prudent to potentially counteract the effects on mortgage rates (home_loan_rate) when dealing with a vacancy rate of 0.07 (empty_units_rate=0.07)?","{'causal_problem': ['CPL', None], 'dataset': ['housing_market.csv'], 'treatment': ['home_price'], 'response': ['home_loan_rate'], 'condition': [('empty_units_rate', 0.07)]}"
+3,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: housing_market.csv
+- Treatment variable: median home price (home_price)
+- Outcome variable: mortgage rates (home_loan_rate)
+- Condition variable: vacancy rates
+- Condition value: 0.07 (empty_units_rate=0.07)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Considering the patient's consistent exercise frequency of 2 (exercise=2), what specific insights from the diabetes.csv dataset can guide me in determining the right insulin dose (Dose) for optimizing their monitored blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- Given that our community resilience is currently at 0.07, does the DRR.csv data suggest that adopting the disaster preparedness plan would significantly boost our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Given the situation in the housing_market.csv where vacancy rates are 0.07 (empty_units_rate=0.07), can you suggest a median home price (home_price) that could be conducive to maintaining competitive mortgage rates (home_loan_rate)?","{'causal_problem': ['CPL', None], 'dataset': ['housing_market.csv'], 'treatment': ['home_price'], 'response': ['home_loan_rate'], 'condition': [('empty_units_rate', 0.07)]}"
+4,housing_market.csv,median home price,home_price,mortgage rates,home_loan_rate,vacancy rates,empty_units_rate,0.07,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: housing_market.csv
+- Treatment variable: median home price (home_price)
+- Outcome variable: mortgage rates (home_loan_rate)
+- Condition variable: vacancy rates
+- Condition value: 0.07 (empty_units_rate=0.07)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Considering the patient's consistent exercise frequency of 2 (exercise=2), what specific insights from the diabetes.csv dataset can guide me in determining the right insulin dose (Dose) for optimizing their monitored blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- Given that our community resilience is currently at 0.07, does the DRR.csv data suggest that adopting the disaster preparedness plan would significantly boost our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Using the housing_market.csv as a reference, what guidance is there on setting an appropriate median home price (home_price) to potentially respond to mortgage rates (home_loan_rate) when faced with a vacancy rate challenge of 0.07 (empty_units_rate=0.07)?","{'causal_problem': ['CPL', None], 'dataset': ['housing_market.csv'], 'treatment': ['home_price'], 'response': ['home_loan_rate'], 'condition': [('empty_units_rate', 0.07)]}"
+5,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance (rallies_attended)
+- Outcome variable: campaign donations (funds_received)
+- Condition variable: legislation passed
+- Condition value: 0.57 (laws_enacted=0.57)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With a community resilience score of 0.07, does the information in the DRR.csv suggest that prioritizing the disaster preparedness plan will effectively optimize our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Could you guide me on how to adjust the number of political rallies I attend (rallies_attended) as suggested by the political_engagement.csv, particularly when considering that the rate of legislation passed (laws_enacted) is at 0.57, to maximize the amount of campaign donations (funds_received)?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['rallies_attended'], 'response': ['funds_received'], 'condition': [('laws_enacted', 0.57)]}"
+6,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance (rallies_attended)
+- Outcome variable: campaign donations (funds_received)
+- Condition variable: legislation passed
+- Condition value: 0.57 (laws_enacted=0.57)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With a community resilience score of 0.07, does the information in the DRR.csv suggest that prioritizing the disaster preparedness plan will effectively optimize our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," In light of the details from political_engagement.csv, when legislation passed (laws_enacted) stands at 0.57, how should one go about altering their political rallies attendance (rallies_attended) strategy to possibly increase the flow of campaign donations (funds_received)?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['rallies_attended'], 'response': ['funds_received'], 'condition': [('laws_enacted', 0.57)]}"
+7,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance (rallies_attended)
+- Outcome variable: campaign donations (funds_received)
+- Condition variable: legislation passed
+- Condition value: 0.57 (laws_enacted=0.57)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With a community resilience score of 0.07, does the information in the DRR.csv suggest that prioritizing the disaster preparedness plan will effectively optimize our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," With the information provided by political_engagement.csv and the condition that legislation passed (laws_enacted) is 0.57, what's the best course of action to take regarding the frequency of attending political rallies (rallies_attended) to potentially influence campaign donations (funds_received)?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['rallies_attended'], 'response': ['funds_received'], 'condition': [('laws_enacted', 0.57)]}"
+8,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance (rallies_attended)
+- Outcome variable: campaign donations (funds_received)
+- Condition variable: legislation passed
+- Condition value: 0.57 (laws_enacted=0.57)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With a community resilience score of 0.07, does the information in the DRR.csv suggest that prioritizing the disaster preparedness plan will effectively optimize our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," What's the advisable approach to participating in political rallies (rallies_attended), according to the insights from political_engagement.csv, to possibly affect the campaign donations (funds_received) when the benchmark for legislation passed (laws_enacted) is at 0.57?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['rallies_attended'], 'response': ['funds_received'], 'condition': [('laws_enacted', 0.57)]}"
+9,political_engagement.csv,political rallies attendance,rallies_attended,campaign donations,funds_received,legislation passed,laws_enacted,0.57,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance (rallies_attended)
+- Outcome variable: campaign donations (funds_received)
+- Condition variable: legislation passed
+- Condition value: 0.57 (laws_enacted=0.57)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With a community resilience score of 0.07, does the information in the DRR.csv suggest that prioritizing the disaster preparedness plan will effectively optimize our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Given that the legislation passed (laws_enacted) is currently at a value of 0.57, as per the political_engagement.csv dataset, what steps should be considered when planning attendance at political rallies (rallies_attended) to possibly have a positive impact on the subsequent campaign donations (funds_received)?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['rallies_attended'], 'response': ['funds_received'], 'condition': [('laws_enacted', 0.57)]}"
+10,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy (lifespan)
+- Outcome variable: vaccination rates
+- Condition variable: obesity rates
+- Condition value: 0.73 (rate_of_obesity=0.73)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Could you use the diabetes.csv data to guide me on adjusting my insulin dose (Dose), considering my exercise frequency is 2 (exercise=2), for optimal blood glucose condition (glucose)?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," If someone has an obesity rate of 0.73 as noted in our public_health.csv dataset, what course of action would you suggest to improve their life expectancy with respect to the observed vaccination rates?","{'causal_problem': ['CPL', None], 'dataset': ['public_health.csv'], 'treatment': ['lifespan'], 'response': ['vaccination_rates'], 'condition': [('rate_of_obesity', 0.73)]}"
+11,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy (lifespan)
+- Outcome variable: vaccination rates
+- Condition variable: obesity rates
+- Condition value: 0.73 (rate_of_obesity=0.73)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Could you use the diabetes.csv data to guide me on adjusting my insulin dose (Dose), considering my exercise frequency is 2 (exercise=2), for optimal blood glucose condition (glucose)?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," How should we adjust our approach to enhancing life expectancy in the context of the public_health.csv data, particularly for individuals with an obesity rate at 0.73, in order to effectively influence vaccination rates?","{'causal_problem': ['CPL', None], 'dataset': ['public_health.csv'], 'treatment': ['lifespan'], 'response': ['vaccination_rates'], 'condition': [('rate_of_obesity', 0.73)]}"
+12,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy (lifespan)
+- Outcome variable: vaccination rates
+- Condition variable: obesity rates
+- Condition value: 0.73 (rate_of_obesity=0.73)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Could you use the diabetes.csv data to guide me on adjusting my insulin dose (Dose), considering my exercise frequency is 2 (exercise=2), for optimal blood glucose condition (glucose)?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Can the public_health.csv file provide guidance on the best steps to take in increasing life expectancy, given that the obesity rates are currently standing at 0.73, with an aim to positively impact vaccination rates?","{'causal_problem': ['CPL', None], 'dataset': ['public_health.csv'], 'treatment': ['lifespan'], 'response': ['vaccination_rates'], 'condition': [('rate_of_obesity', 0.73)]}"
+13,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy (lifespan)
+- Outcome variable: vaccination rates
+- Condition variable: obesity rates
+- Condition value: 0.73 (rate_of_obesity=0.73)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Could you use the diabetes.csv data to guide me on adjusting my insulin dose (Dose), considering my exercise frequency is 2 (exercise=2), for optimal blood glucose condition (glucose)?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Considering the public_health.csv findings, what life expectancy improvements should be prioritized for individuals with an obesity rate of 0.73 to potentially affect their vaccination rates?","{'causal_problem': ['CPL', None], 'dataset': ['public_health.csv'], 'treatment': ['lifespan'], 'response': ['vaccination_rates'], 'condition': [('rate_of_obesity', 0.73)]}"
+14,public_health.csv,life expectancy,lifespan,vaccination rates,,obesity rates,rate_of_obesity,0.73,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: public_health.csv
+- Treatment variable: life expectancy (lifespan)
+- Outcome variable: vaccination rates
+- Condition variable: obesity rates
+- Condition value: 0.73 (rate_of_obesity=0.73)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Could you use the diabetes.csv data to guide me on adjusting my insulin dose (Dose), considering my exercise frequency is 2 (exercise=2), for optimal blood glucose condition (glucose)?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," With obesity rates at 0.73 according to the public_health.csv, what recommended actions could be taken to lengthen life expectancy that might, in turn, have a beneficial effect on vaccination rates?","{'causal_problem': ['CPL', None], 'dataset': ['public_health.csv'], 'treatment': ['lifespan'], 'response': ['vaccination_rates'], 'condition': [('rate_of_obesity', 0.73)]}"
+15,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: retail_sales.csv
+- Treatment variable: store count (store_quantity)
+- Outcome variable: product demand
+- Condition variable: online sales
+- Condition value: 0.72 (sales_online=0.72)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Could you elaborate on how the diabetes.csv dataset informs insulin dose (Dose) decisions for patients who consistently exercise at a frequency value of 2 (exercise=2), aiming to optimize their blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- If we look at our community resilience sitting at just 0.07, does diving into the DRR.csv give us a thumbs-up to roll out that disaster preparedness plan, especially if we're aiming to ramp up the building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," With the retail_sales.csv dataset in hand, how might we adjust the store count (store_quantity) to increase product demand, considering that our online sales figure stands at 0.72 (sales_online=0.72)?","{'causal_problem': ['CPL', None], 'dataset': ['retail_sales.csv'], 'treatment': ['store_quantity'], 'response': ['product_demand'], 'condition': [('sales_online', 0.72)]}"
+16,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: retail_sales.csv
+- Treatment variable: store count (store_quantity)
+- Outcome variable: product demand
+- Condition variable: online sales
+- Condition value: 0.72 (sales_online=0.72)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Could you elaborate on how the diabetes.csv dataset informs insulin dose (Dose) decisions for patients who consistently exercise at a frequency value of 2 (exercise=2), aiming to optimize their blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- If we look at our community resilience sitting at just 0.07, does diving into the DRR.csv give us a thumbs-up to roll out that disaster preparedness plan, especially if we're aiming to ramp up the building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," In light of our online sales being at 0.72 (sales_online=0.72) according to the retail_sales.csv, what's the best course of action for tweaking store count (store_quantity) to meet the product demand?","{'causal_problem': ['CPL', None], 'dataset': ['retail_sales.csv'], 'treatment': ['store_quantity'], 'response': ['product_demand'], 'condition': [('sales_online', 0.72)]}"
+17,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: retail_sales.csv
+- Treatment variable: store count (store_quantity)
+- Outcome variable: product demand
+- Condition variable: online sales
+- Condition value: 0.72 (sales_online=0.72)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Could you elaborate on how the diabetes.csv dataset informs insulin dose (Dose) decisions for patients who consistently exercise at a frequency value of 2 (exercise=2), aiming to optimize their blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- If we look at our community resilience sitting at just 0.07, does diving into the DRR.csv give us a thumbs-up to roll out that disaster preparedness plan, especially if we're aiming to ramp up the building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Could you suggest the ideal store count (store_quantity) that the retail_sales.csv dataset indicates would optimize product demand, in the scenario where online sales consistently hover around 0.72 (sales_online=0.72)?","{'causal_problem': ['CPL', None], 'dataset': ['retail_sales.csv'], 'treatment': ['store_quantity'], 'response': ['product_demand'], 'condition': [('sales_online', 0.72)]}"
+18,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: retail_sales.csv
+- Treatment variable: store count (store_quantity)
+- Outcome variable: product demand
+- Condition variable: online sales
+- Condition value: 0.72 (sales_online=0.72)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Could you elaborate on how the diabetes.csv dataset informs insulin dose (Dose) decisions for patients who consistently exercise at a frequency value of 2 (exercise=2), aiming to optimize their blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- If we look at our community resilience sitting at just 0.07, does diving into the DRR.csv give us a thumbs-up to roll out that disaster preparedness plan, especially if we're aiming to ramp up the building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Looking at the retail_sales.csv data, what action should we take with our store count (store_quantity) to effectively address product demand, bearing in mind our current online sales are at 0.72 (sales_online=0.72)?","{'causal_problem': ['CPL', None], 'dataset': ['retail_sales.csv'], 'treatment': ['store_quantity'], 'response': ['product_demand'], 'condition': [('sales_online', 0.72)]}"
+19,retail_sales.csv,store count,store_quantity,product demand,,online sales,sales_online,0.72,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: retail_sales.csv
+- Treatment variable: store count (store_quantity)
+- Outcome variable: product demand
+- Condition variable: online sales
+- Condition value: 0.72 (sales_online=0.72)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Can you help me out with what to do with my insulin dose (Dose), based on the diabetes.csv you got, especially since I'm exercising at a level 2 (exercise=2)? I need to keep my blood glucose condition (glucose) in check.
+- Could you elaborate on how the diabetes.csv dataset informs insulin dose (Dose) decisions for patients who consistently exercise at a frequency value of 2 (exercise=2), aiming to optimize their blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Upon examining the DRR.csv dataset, do we have a clear indication to implement the disaster preparedness plan, particularly given that our community resilience is quantified at just 0.07 and our goal is to enhance the building code compliance rate (BCC_rate)?
+- When we take a good look at what the DRR.csv's got and think about our community resilience being only 0.07, would you say giving the green light to that disaster preparedness plan is the way to go for bumping up our building code compliance rate (BCC_rate)?
+- If we look at our community resilience sitting at just 0.07, does diving into the DRR.csv give us a thumbs-up to roll out that disaster preparedness plan, especially if we're aiming to ramp up the building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Given our situation where online sales mark 0.72 (sales_online=0.72) as shown in the retail_sales.csv, what recommendation would you have for setting the right store count (store_quantity) to fulfill the anticipated product demand?","{'causal_problem': ['CPL', None], 'dataset': ['retail_sales.csv'], 'treatment': ['store_quantity'], 'response': ['product_demand'], 'condition': [('sales_online', 0.72)]}"
+20,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: product releases
+- Outcome variable: sales volume (units_sold)
+- Condition variable: innovation rate
+- Condition value: 0.69 (innovation_level=0.69)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," In light of an innovation rate standing at 0.69 within the consumer_electronics.csv dataset, what guidance can be offered regarding the timing or intensity of product releases to potentially enhance sales volume?","{'causal_problem': ['CPL', None], 'dataset': ['consumer_electronics.csv'], 'treatment': ['product_releases'], 'response': ['units_sold'], 'condition': [('innovation_level', 0.69)]}"
+21,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: product releases
+- Outcome variable: sales volume (units_sold)
+- Condition variable: innovation rate
+- Condition value: 0.69 (innovation_level=0.69)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Can you advise on how to modify our approach to product releases to improve sales volume, based on the data from consumer_electronics.csv, especially considering our current innovation level is at 0.69?","{'causal_problem': ['CPL', None], 'dataset': ['consumer_electronics.csv'], 'treatment': ['product_releases'], 'response': ['units_sold'], 'condition': [('innovation_level', 0.69)]}"
+22,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: product releases
+- Outcome variable: sales volume (units_sold)
+- Condition variable: innovation rate
+- Condition value: 0.69 (innovation_level=0.69)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," With the consumer_electronics.csv data at hand, and acknowledging an innovation rate of 0.69, what product release strategy might be optimal for maximizing sales volume?","{'causal_problem': ['CPL', None], 'dataset': ['consumer_electronics.csv'], 'treatment': ['product_releases'], 'response': ['units_sold'], 'condition': [('innovation_level', 0.69)]}"
+23,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: product releases
+- Outcome variable: sales volume (units_sold)
+- Condition variable: innovation rate
+- Condition value: 0.69 (innovation_level=0.69)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," When considering the consumer_electronics.csv dataset, how would you suggest we adjust the frequency or nature of our product releases in response to an innovation rate measured at 0.69, with the aim of boosting sales volume?","{'causal_problem': ['CPL', None], 'dataset': ['consumer_electronics.csv'], 'treatment': ['product_releases'], 'response': ['units_sold'], 'condition': [('innovation_level', 0.69)]}"
+24,consumer_electronics.csv,product releases,,sales volume,units_sold,innovation rate,innovation_level,0.69,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: consumer_electronics.csv
+- Treatment variable: product releases
+- Outcome variable: sales volume (units_sold)
+- Condition variable: innovation rate
+- Condition value: 0.69 (innovation_level=0.69)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+- Based on the diabetes.csv dataset, what insulin dose (Dose) strategy is recommended for someone who exercises with a frequency value of 2 (exercise=2) to achieve optimal blood glucose condition (glucose) levels?
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+- In the context of our community resilience score standing at 0.07, does the empirical evidence provided in the DRR.csv dataset advocate for the implementation of the disaster preparedness plan as a means to optimize our building code compliance rate (BCC_rate)?
+- Given the information from the DRR.csv and our current community resilience score of 0.07, would initiating the disaster preparedness plan, in your view, lead us toward a significant improvement in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Looking at the evidence from consumer_electronics.csv, what actions related to product releases would you recommend for achieving the best sales volume, given that our innovation rate hovers around 0.69?","{'causal_problem': ['CPL', None], 'dataset': ['consumer_electronics.csv'], 'treatment': ['product_releases'], 'response': ['units_sold'], 'condition': [('innovation_level', 0.69)]}"
+25,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: legislation passed
+- Condition variable: campaign donations
+- Condition value: 0.49 (campaign_donations=0.49)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With our community resilience measured at 0.07, does the DRR.csv dataset offer sufficient insights to conclude that prioritizing the disaster preparedness plan would be a strategic approach to significantly improve our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," What guidance can you offer, after looking into the political_engagement.csv dataset, on how an individual or group should approach attendance at political rallies to influence the number of legislations passed, particularly when their campaign donations are at 0.49?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['legislation_passed'], 'condition': [('campaign_donations', 0.49)]}"
+26,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: legislation passed
+- Condition variable: campaign donations
+- Condition value: 0.49 (campaign_donations=0.49)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With our community resilience measured at 0.07, does the DRR.csv dataset offer sufficient insights to conclude that prioritizing the disaster preparedness plan would be a strategic approach to significantly improve our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," Considering the political_engagement.csv data, what action should one take regarding their attendance at political rallies to potentially affect the passage of legislation when accounting for a campaign donation level of 0.49?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['legislation_passed'], 'condition': [('campaign_donations', 0.49)]}"
+27,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: legislation passed
+- Condition variable: campaign donations
+- Condition value: 0.49 (campaign_donations=0.49)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With our community resilience measured at 0.07, does the DRR.csv dataset offer sufficient insights to conclude that prioritizing the disaster preparedness plan would be a strategic approach to significantly improve our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," What steps should an organization consider with respect to political rallies attendance to maximize the impact on legislation passed, as per insights from the political_engagement.csv, given that their campaign donations are set at the value of 0.49?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['legislation_passed'], 'condition': [('campaign_donations', 0.49)]}"
+28,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: legislation passed
+- Condition variable: campaign donations
+- Condition value: 0.49 (campaign_donations=0.49)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With our community resilience measured at 0.07, does the DRR.csv dataset offer sufficient insights to conclude that prioritizing the disaster preparedness plan would be a strategic approach to significantly improve our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," In light of the information from the political_engagement.csv, what would be the most effective strategy for someone to undertake in terms of political rallies attendance to contribute towards the enactment of legislation, bearing in mind that their campaign donations are currently 0.49?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['legislation_passed'], 'condition': [('campaign_donations', 0.49)]}"
+29,political_engagement.csv,political rallies attendance,,legislation passed,,campaign donations,campaign_donations,0.49,"Given the details below, generate five diverse and plain-worded questions. Each question should seek advice on what action a person or subject should take under specific conditions:
+- Dataset name: political_engagement.csv
+- Treatment variable: political rallies attendance
+- Outcome variable: legislation passed
+- Condition variable: campaign donations
+- Condition value: 0.49 (campaign_donations=0.49)
+-----------------------------------------------------------
+Here are some examples:
+Example 1: given the following information:
+- Dataset name: diabetes.csv
+- Treatment variable: insulin dose (Dose)
+- Outcome variable: blood glucose condition (glucose)
+- Condition variable: exercise frequency
+- Condition value: 2 (exercise=2)
+
+The corresponding questions can be:
+- Looking at the diabetes.csv data, what changes to insulin dose (Dose) might be advised for an individual with an exercise frequency of 2 (exercise=2) to effectively manage their blood glucose condition (glucose) levels?
+- Using insights from the diabetes.csv file, what action should a person with a consistent exercise frequency of 2 (exercise=2) take in terms of their insulin dose (Dose) to improve their blood glucose condition (glucose)?
+- If my exercise frequency is consistently at a value of 2 (exercise=2), how should I adjust my insulin dose (Dose) using the data from the diabetes.csv dataset to best manage my blood glucose condition (glucose)?
+
+Example 2: given the following information:
+- Dataset name: DRR.csv
+- Treatment variable: disaster preparedness plan
+- Outcome variable: building code compliance rate (BCC_rate)
+- Condition variable: community resilience
+- Condition value: 0.07
+
+The corresponding questions can be:
+- Could you recommend, based on what the DRR.csv shows and factoring in our community resilience of 0.07, whether implementing the disaster preparedness plan would be beneficial for enhancing the building code compliance rate (BCC_rate)?
+- With our community resilience measured at 0.07, does the DRR.csv dataset offer sufficient insights to conclude that prioritizing the disaster preparedness plan would be a strategic approach to significantly improve our building code compliance rate (BCC_rate)?
+- From a strategic standpoint, and upon examining the DRR.csv dataset in conjunction with our community resilience score of 0.07, do you suggest that prioritizing the disaster preparedness plan could be instrumental in driving substantial improvements in our building code compliance rate (BCC_rate)?
+
+-----------------------------------------------------------
+Ensure that the questions employ a mix of different phrasing and diverse sentence structures.
+Ensure that the questions focus on soliciting recommendations for the best possible action listed in Treatment variable field.
+Ensure that the questions do not mention correlation and association.
+Ensure that the provided names are integrated naturally into the questions without discarding or altering any part of them.
+Ensure that the input names are preserved exactly as given without quotes.
+Ensure that all of Treatment variable, Outcome variable, and Condition variable are mentioned in the generated query.
+"," When analyzing the political_engagement.csv dataset, can you advise on the level of activity in political rallies attendance one should strive for to have a positive effect on legislation passed under the circumstance where their campaign donations stand at 0.49?","{'causal_problem': ['CPL', None], 'dataset': ['political_engagement.csv'], 'treatment': ['political_rallies_attendance'], 'response': ['legislation_passed'], 'condition': [('campaign_donations', 0.49)]}"
