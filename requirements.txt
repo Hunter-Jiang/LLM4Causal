@@ -1,0 +1,17 @@
+numpy
+pandas
+psutil
+torch==2.1.0
+deepspeed
+accelerate
+datasets
+transformers
+peft
+huggingface_hub
+OpenAI
+scikit-learn
+scikit-uplift
+statsmodels
+lingam
+--extra-index-url https://test.pypi.org/simple/
+causaldm

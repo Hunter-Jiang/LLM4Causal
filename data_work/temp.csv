@@ -1,0 +1,20 @@
+,input,output,type
+0,"(A) is a list of information that includes i) the original causal problem, ii) the class identification of the causal problem, iii) the used method, and iv) the outcomes.
+Interpret the results in (A) in response to the original causal problem, using neutral language to paraphrase it more fluently and engagingly.
+The output summary is (I).
+Guidelines:
+1: (I) must concentrate on interpreting the result provided in (A) in response to the problem.
+2: (I) must include all the results, methods, and dataset name in (A).
+3: (I) may include jargon from (A), but it should not include any other technical terms not mentioned in (A).
+4: The problem in (A) is a causal problem, thus (I) should not interpret the results as correlation or association.
+5: (I) should use a diversified sentence structure that is also reader-friendly and concise, rather than listing information one by one.
+6: Instead of including the problems, (I) should use the original problem to develop a more informative interpretation of the result.
+7: (I) has to avoid using strong qualifiers such as 'significant'.
+8: (I) has to be 4 sentences or less long, with no repetition of contents.
+9: (I) must not comment on the results.
+(A):
+i) original causal problem: {'causal_problem': ['CEL', 'MA'], 'dataset': ['retail_sales.csv'], 'treatment': ['product_demand'], 'response': ['retail_revenue'], 'mediator': ['expenditure']}
+ii) class identification of the causal problem: mediation analysis
+iii) used method: doubly robust estimator
+iv) outcomes: The overall impact of the product_demand on the retail_revenue is 0.89. This comprises a direct effect of 0.25 from the product_demand to the retail_revenueand an indirect effect of 0.64, mediated by the expenditure.
+(I):",,step3
